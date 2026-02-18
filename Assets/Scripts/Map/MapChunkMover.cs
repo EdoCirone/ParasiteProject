@@ -30,7 +30,12 @@ public class MapChunkMover : MonoBehaviour
             {
                 chunk.position += Vector3.right * Mathf.Sign(distance.x) * _calculateDistanceThreshold * 2;
             } 
-           
+
+            if (Mathf.Abs(distance.y) > _calculateDistanceThreshold) 
+            {
+                chunk.position += Vector3.up * Mathf.Sign(distance.y) * _calculateDistanceThreshold * 2;
+            }
+
         }
     }
 
