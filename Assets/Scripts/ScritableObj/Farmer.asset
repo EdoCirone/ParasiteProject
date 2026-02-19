@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2e484c3e56ee44b9b4e9392ee5569b, type: 3}
+  m_Name: Farmer
+  m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
+  MaxHp: 100
+  Speed: 4
+  BoostPlayerSpeed: 1.25
+  Damage: 5
+  BoostPlayerDamage: 1.5
+  VelocityAttack: 1.5
+  BoostPlayerVelocityAttack: 1.5
+  Visual: {fileID: 6768084851629381118, guid: b293b829b9def894ea0ad6c56bc1b132, type: 3}
+  Attack: {fileID: 11400000, guid: 9c2c27a0f254f0c46931ad0dd367d51a, type: 2}

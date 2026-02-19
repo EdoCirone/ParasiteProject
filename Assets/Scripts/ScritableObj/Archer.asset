@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2e484c3e56ee44b9b4e9392ee5569b, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
+  MaxHp: 100
+  Speed: 4
+  BoostPlayerSpeed: 1.25
+  Damage: 5
+  BoostPlayerDamage: 1.5
+  VelocityAttack: 1.5
+  BoostPlayerVelocityAttack: 1.5
+  Visual: {fileID: 3324262959496153416, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+  Attack: {fileID: 11400000, guid: abf8d4f2beda7394bab16df484ca0c46, type: 2}
