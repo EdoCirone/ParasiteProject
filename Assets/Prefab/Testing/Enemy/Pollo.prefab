@@ -52,7 +52,7 @@ MonoBehaviour:
   isPlayer: 0
   layerEnemy:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
   X: 0
   Y: 0
   timerForDeath: 3
