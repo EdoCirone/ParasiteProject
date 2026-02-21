@@ -52,6 +52,9 @@ public class HealtBarAllert : MonoBehaviour
     {
         _isAllertActive = true;
         _allertImage.SetActive(true);
+        _allertImage.transform.localScale = Vector3.one; // Reset scale before starting the pulse animation
+        _pulseTween?.Kill(); // Ensure any existing tween is killed before starting a new one
+
         _pulseTween = _allertImage.transform.DOScale(_pulseScale, _timeinterval).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.InOutSine);
     }
 
