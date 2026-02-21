@@ -1,8 +1,20 @@
+using DG.Tweening;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
+[System.Serializable]
+public class AttackSequenceMelee
+{
+    public Vector3 AttackPosition;
+    public Vector3 AttackRotation;
+    public float AttackDuration;
+}
 
 public class BaseSword : MonoBehaviour
 {
+    [SerializeField] private List<AttackSequenceMelee> attackSequenceMelees = new List<AttackSequenceMelee>();
+
     public float upAngle = 70f;
     public float downAngle = -120f;
 
@@ -26,33 +38,40 @@ public class BaseSword : MonoBehaviour
     {
         yield return null;
         transform.localPosition = Vector3.zero;
-        Transform weapon = transform;
-        Quaternion startRot = weapon.localRotation;
+  
+        Quaternion startRot = transform.localRotation;
+        float flip = Mathf.Sign(entity.FacingDir.x == 0 ? 1 : entity.FacingDir.x);
 
-        Quaternion upRot = Quaternion.Euler(0, 0, upAngle);
-        Quaternion downRot = Quaternion.Euler(0, 0, downAngle );
+        for (int i = 0; i < attackSequenceMelees.Count; i++)
+        {
+            AttackSequenceMelee currentAttack = attackSequenceMelees[i];
 
-        yield return Rotate(weapon, startRot, upRot, windUpTime);
-        yield return Rotate(weapon, upRot, downRot, swingTime);
-        yield return Rotate(weapon, downRot, startRot, returnTime);
+            LocationWep(currentAttack,flip);
+            RotationWep(currentAttack,flip,startRot);
 
+            yield return new WaitForSeconds(currentAttack.AttackDuration);
+        }
         entity.StartAttack();
-
         Destroy(gameObject);
     }
 
-    private IEnumerator Rotate(Transform t, Quaternion a, Quaternion b, float time)
+    private void LocationWep(AttackSequenceMelee attack, float flip)
     {
-        float elapsed = 0f;
+        Vector3 adjustedPosition = attack.AttackPosition;
+        adjustedPosition.x *= flip;
+        adjustedPosition.y *= flip;
+        adjustedPosition.z *= flip;
 
-        while (elapsed < time)
-        {
-            elapsed += Time.deltaTime;
-            t.localRotation = Quaternion.Slerp(a, b, elapsed / time);
-            yield return null;
-        }
+        transform.DOLocalMove(adjustedPosition, attack.AttackDuration);
+    }
 
-        t.localRotation = b;
+    private void RotationWep(AttackSequenceMelee attack,float flip,Quaternion startRot)
+    {
+        Vector3 adjustedRotation = attack.AttackRotation;
+        adjustedRotation.z *= flip;
+
+        Quaternion wepRotation = startRot * Quaternion.Euler(adjustedRotation);
+        transform.DOLocalRotateQuaternion(wepRotation, attack.AttackDuration);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

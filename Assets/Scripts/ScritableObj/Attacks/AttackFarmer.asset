@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5ba806c9bb34ea4f9fb9323450074df, type: 3}
   m_Name: AttackFarmer
   m_EditorClassIdentifier: Assembly-CSharp::AttackFarmer
+  canUseY: 0
   baseSword: {fileID: 1898946987810552902, guid: 0a04add0c80c8e94b8a66175040facea, type: 3}
-  UsableX: 1
-  UsableY: 0
