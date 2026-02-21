@@ -11,7 +11,7 @@ public class Entity : MonoBehaviour
 
     protected Rigidbody2D rb;
     protected float maxHp;
-    protected float hp;
+    [SerializeField]protected float hp;
     protected bool isDeath;
     protected Vector2 facingDir = Vector2.right;
 
