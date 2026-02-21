@@ -1266,6 +1266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 956328002}
   - component: {fileID: 956328003}
+  - component: {fileID: 956328004}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -1302,6 +1303,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
   _player: {fileID: 1343431613}
   _healthBarFill: {fileID: 108432996}
+--- !u!114 &956328004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956328001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a566d108b1f6d464b8a269196d799782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealtBarAllert
+  _healthBar: {fileID: 108432996}
+  _allertImage: {fileID: 1354313778}
+  _valueToAllert: 0.3
+  _timeinterval: 0.5
+  _pulseScale: 1.2
 --- !u!1 &983433632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,6 +1801,7 @@ MonoBehaviour:
   layerEnemy:
     serializedVersion: 2
     m_Bits: 0
+  hp: 0
   X: 0
   Y: 0
   possessRadius: 3
