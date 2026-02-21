@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c2e484c3e56ee44b9b4e9392ee5569b, type: 3}
-  m_Name: Archer
+  m_Name: Pollo
   m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
-  MaxHp: 100
-  Speed: 4
-  BoostPlayerSpeed: 1.25
-  Damage: 5
-  BoostPlayerDamage: 1.5
-  VelocityAttack: 1.5
-  BoostPlayerVelocityAttack: 1.5
-  Visual: {fileID: 3324262959496153416, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
-  Attack: {fileID: 11400000, guid: abf8d4f2beda7394bab16df484ca0c46, type: 2}
+  MaxHp: 50
+  Speed: 2
+  BoostPlayerSpeed: 2
+  Damage: 1
+  BoostPlayerDamage: 1.25
+  VelocityAttack: 1
+  BoostPlayerVelocityAttack: 1.25
+  Visual: {fileID: 7573790468067597274, guid: 5460a33de6494ab468fdc606a3fd722c, type: 3}
+  Attack: {fileID: 11400000, guid: dd328b710d24c5f4a97a676acb0ad77b, type: 2}

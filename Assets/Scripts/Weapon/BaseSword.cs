@@ -15,16 +15,11 @@ public class BaseSword : MonoBehaviour
 {
     [SerializeField] private List<AttackSequenceMelee> attackSequenceMelees = new List<AttackSequenceMelee>();
 
-    public float upAngle = 70f;
-    public float downAngle = -120f;
+    [Header("Debug")]
+    public LayerMask layerEnemey;
+    public float damage;
 
-    public float windUpTime = 0.15f;
-    public float swingTime = 0.08f;
-    public float returnTime = 0.12f;
-
-
-    private LayerMask layerEnemey;
-    private float damage;
+    private Pool_Obj pool;
 
     public void Attack(Transform attackPoint, Entity entity)
     {
@@ -52,7 +47,11 @@ public class BaseSword : MonoBehaviour
             yield return new WaitForSeconds(currentAttack.AttackDuration);
         }
         entity.StartAttack();
-        Destroy(gameObject);
+
+        if(!pool) pool = GetComponentInChildren<Pool_Obj>();
+
+        if(pool) pool.ReturnToPool();
+        else Destroy(gameObject);
     }
 
     private void LocationWep(AttackSequenceMelee attack, float flip)

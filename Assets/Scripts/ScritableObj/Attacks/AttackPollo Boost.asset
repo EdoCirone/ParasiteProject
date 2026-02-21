@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e68962f82b1e7748b07a2d67bfcf807, type: 3}
-  m_Name: AttackPollo 2
+  m_Name: AttackPollo Boost
   m_EditorClassIdentifier: Assembly-CSharp::AttackPollo
-  baseBullet: {fileID: 380270175695630152, guid: e161b9c6689279a409a590ac860890f6, type: 3}
-  UsableX: 0.22826695
-  UsableY: 0
+  wepon: {fileID: 11400000, guid: 2a983ee45a6c4f44093d9736aeb924dd, type: 2}
+  canUseY: 0
+  attackOnSequence: 1
+  timeEachAttack: 0.25

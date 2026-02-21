@@ -1,15 +1,15 @@
 using System.Collections;
 using UnityEngine;
-using static UnityEngine.EventSystems.EventTrigger;
 
 [CreateAssetMenu(fileName = "Attacks", menuName = "AttackFarmer")]
 public class AttackFarmer : AttackBase_SO
 {
-    [SerializeField] private BaseSword baseSword;
-
     public override void Attack(Transform attackPoint, Entity entity)
-    {   
-        BaseSword sword = Instantiate(baseSword, attackPoint.position, Quaternion.identity,attackPoint);
+    {
+        GameObject obj = wepon.SpawnObj(attackPoint.position, Quaternion.identity);
+        obj.transform.SetParent(attackPoint);
+
+        BaseSword sword = obj.GetComponent<BaseSword>();
 
         Vector2 dir = entity.FacingDir;
         if (!canUseY) dir = new Vector2(Mathf.Sign(dir.x == 0 ? 1 : dir.x), 0);

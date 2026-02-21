@@ -3,7 +3,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Attacks", menuName = "AttackRange")]
 public class AttackRange : AttackBase_SO
 {
-    [SerializeField] private BaseBullet baseBullet;
     [SerializeField] private int attackOnSequence = 1;
     [SerializeField] private float timeEachAttack = 0.25f;
 
@@ -19,7 +18,9 @@ public class AttackRange : AttackBase_SO
         if (!canUseY) dir = new Vector2(Mathf.Sign(dir.x == 0 ? 1 : dir.x), 0);
         dir.Normalize();
 
-        BaseBullet bullet = Instantiate(baseBullet, attackPoint.position, Quaternion.identity);
+        GameObject obj = wepon.SpawnObj(attackPoint.position, Quaternion.identity);
+        BaseBullet bullet = obj.GetComponent<BaseBullet>();
+
         bullet.SetDirectionAndSpeed(dir, rbEntity.linearVelocity.magnitude, entity.GetDamage());
         bullet.LayerEnemey = entity.LayerEnemy;
 

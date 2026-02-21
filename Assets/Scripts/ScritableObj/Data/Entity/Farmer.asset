@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c2e484c3e56ee44b9b4e9392ee5569b, type: 3}
   m_Name: Farmer
   m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
-  MaxHp: 100
-  Speed: 4
-  BoostPlayerSpeed: 1.25
-  Damage: 5
+  MaxHp: 125
+  Speed: 3
+  BoostPlayerSpeed: 1.75
+  Damage: 1000
   BoostPlayerDamage: 1.5
   VelocityAttack: 1.5
   BoostPlayerVelocityAttack: 1.5
