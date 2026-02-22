@@ -11,6 +11,8 @@ public class BaseBullet : MonoBehaviour
     protected float speedAdd;
     protected float damage;
 
+    protected Pool_Obj pool;
+
     public LayerMask LayerEnemey;
 
     public virtual void Awake()
@@ -46,7 +48,9 @@ public class BaseBullet : MonoBehaviour
     public virtual IEnumerator LifeTimeRoutine()
     {
         yield return new WaitForSeconds(lifeTime);
-        Destroy(gameObject);
+
+        if (!pool) pool = GetComponentInChildren<Pool_Obj>();
+        pool.ReturnToPool();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -56,8 +60,8 @@ public class BaseBullet : MonoBehaviour
             Entity e = other.GetComponentInChildren<Entity>();
             if (e) e.Damage(damage);
 
-            Destroy(gameObject);
+            if (!pool) pool = GetComponentInChildren<Pool_Obj>();
+            pool.ReturnToPool();
         }
     }
-
 }

@@ -4,15 +4,16 @@ using UnityEngine.SceneManagement;
 
 public class EnemyController : Entity
 {
-    [SerializeField] private float timerForDeath = 3f;
+    [SerializeField] protected float timerForDeath = 3f;
 
-    public Transform player;
+    protected Pool_Obj pool;
+    protected Transform player;
 
     public override void Awake()
     {
         base.Awake();
 
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;     
     }
 
     public virtual void Update()
@@ -41,7 +42,9 @@ public class EnemyController : Entity
 
     private IEnumerator DyingRoutine()
     {
-        yield return new WaitForSeconds(timerForDeath); 
-        Destroy(gameObject);
+        yield return new WaitForSeconds(timerForDeath);
+        if(!pool) pool = GetComponentInChildren<Pool_Obj>();
+
+        pool.ReturnToPool();
     }
 }

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c2e484c3e56ee44b9b4e9392ee5569b, type: 3}
-  m_Name: Pollo 2
+  m_Name: Cavaliere
   m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
-  MaxHp: 100
-  Speed: 6
-  BoostPlayerSpeed: 1.25
-  Damage: 15
-  BoostPlayerDamage: 1.25
-  VelocityAttack: 0.2
-  BoostPlayerVelocityAttack: 1.25
-  Visual: {fileID: 7573790468067597274, guid: 7c849250c5bdaa247a9e3661ca31ec82, type: 3}
-  Attack: {fileID: 11400000, guid: 97fd4ea3394ec9d4a9fd6ec0b92eebc5, type: 2}
+  MaxHp: 160
+  Speed: 4
+  BoostPlayerSpeed: 1.5
+  Damage: 25
+  BoostPlayerDamage: 2
+  VelocityAttack: 0.5
+  BoostPlayerVelocityAttack: 2
+  Visual: {fileID: 2140063488185465812, guid: 2e741e7f55c382e42a5ef56d985a371c, type: 3}
+  Attack: {fileID: 11400000, guid: c84c097c75352cb4e9e2dea704a4dda1, type: 2}

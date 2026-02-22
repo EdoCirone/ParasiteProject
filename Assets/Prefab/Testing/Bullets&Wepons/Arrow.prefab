@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9146157029859985218}
-  - component: {fileID: 1521820768643724670}
   - component: {fileID: 380270175695630152}
+  - component: {fileID: 1521820768643724670}
   - component: {fileID: 2649007160133779929}
   - component: {fileID: 1929492630812748650}
   m_Layer: 0
@@ -35,6 +35,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &380270175695630152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78112755155044303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14df473ab6c6e3448b06189bcc556372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BaseBullet
+  speed: 2
+  lifeTime: 5
+  LayerEnemey:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!212 &1521820768643724670
 SpriteRenderer:
   serializedVersion: 2
@@ -94,23 +111,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &380270175695630152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78112755155044303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14df473ab6c6e3448b06189bcc556372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BaseBullet
-  speed: 2
-  lifeTime: 5
-  LayerEnemey:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!50 &2649007160133779929
 Rigidbody2D:
   serializedVersion: 5
