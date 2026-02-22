@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe8c63304c61145a097f2fefebffe7, type: 3}
   m_Name: JumpData
   m_EditorClassIdentifier: Assembly-CSharp::AudioEventData
-  eventType: 0
+  eventType: 3
   route: 1
-  clips: []
+  clips:
+  - {fileID: 8300000, guid: a563b66d91fa13847aafc2d93a35c0f2, type: 3}
   volume: 1
   spatial: 1

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe8c63304c61145a097f2fefebffe7, type: 3}
   m_Name: LowHealthData
   m_EditorClassIdentifier: Assembly-CSharp::AudioEventData
-  eventType: 0
+  eventType: 4
   route: 1
-  clips: []
+  clips:
+  - {fileID: 8300000, guid: 2c90b28210a39b840ba88ceda44b8780, type: 3}
   volume: 1
   spatial: 1

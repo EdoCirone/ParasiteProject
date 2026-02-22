@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fe8c63304c61145a097f2fefebffe7, type: 3}
   m_Name: DeathData
   m_EditorClassIdentifier: Assembly-CSharp::AudioEventData
-  eventType: 0
+  eventType: 2
   route: 1
-  clips: []
+  clips:
+  - {fileID: 8300000, guid: 5c2e2ccc1be48164797494e2a78810fa, type: 3}
   volume: 1
   spatial: 1

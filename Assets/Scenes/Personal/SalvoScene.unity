@@ -1760,6 +1760,7 @@ GameObject:
   - component: {fileID: 1343431611}
   - component: {fileID: 1343431613}
   - component: {fileID: 1343431614}
+  - component: {fileID: 1343431615}
   m_Layer: 0
   m_Name: TestPlayerForMap&LifeBar
   m_TagString: Untagged
@@ -1835,6 +1836,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1343431615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343431610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9527a753b29254e869278edd6e5681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LowHealthAudioController
+  playerEntity: {fileID: 1343431613}
+  pulseSource: {fileID: 0}
+  lowHealthEventData: {fileID: 11400000, guid: 72dbc47a0af57484fa08fb24c21dddc7, type: 2}
+  lowHealthThreshold: 0.3
+  minPulseInterval: 0.3
+  maxPulseInterval: 1.2
+  mixer: {fileID: 24100000, guid: 770993bdb04a5494583e6a6ac911191b, type: 2}
+  ambienceVolumeParam: AmbienceVolume_dB
+  normalAmbienceDb: 0
+  lowDuckMinDb: -8
+  lowDuckMaxDb: -14
+  duckLerpSpeed: 8
 --- !u!1 &1354313778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,7 +2166,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1762926618}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612349251
@@ -2258,6 +2284,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1612349252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1762926617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762926618}
+  - component: {fileID: 1762926619}
+  m_Layer: 0
+  m_Name: AudioDebugger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762926618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762926617}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1574880525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1762926619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762926617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464d2822075f66b438709ef58f448d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioDebugger
+  shotData: {fileID: 11400000, guid: 81f30fc56d195354fb9ec4dab9ff60db, type: 2}
+  hitData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
+  deathData: {fileID: 11400000, guid: 6044f77e75092904ca294d4ab851a298, type: 2}
+  jumpData: {fileID: 11400000, guid: 0a93f274a2128f943bccaea02cc2bd98, type: 2}
+  healthController: {fileID: 1343431615}
+  simulatedHP: 100
 --- !u!1 &1841226633
 GameObject:
   m_ObjectHideFlags: 0

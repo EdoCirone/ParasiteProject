@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioEventData
   eventType: 0
   route: 1
-  clips: []
+  clips:
+  - {fileID: 8300000, guid: 34403634554bc8d4296ee71ca34afff4, type: 3}
   volume: 1
   spatial: 1
