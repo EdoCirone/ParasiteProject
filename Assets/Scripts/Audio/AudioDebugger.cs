@@ -7,6 +7,7 @@ public class AudioDebugger : MonoBehaviour
     public AudioEventData hitData;
     public AudioEventData deathData;
     public AudioEventData jumpData;
+    public AudioEventData meleeData;
 
     [Header("Health Simulation")]
     public LowHealthAudioController healthController;
@@ -19,6 +20,7 @@ public class AudioDebugger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2)) AudioManager.Instance.PlaySound(hitData, transform.position);
         if (Input.GetKeyDown(KeyCode.Alpha3)) AudioManager.Instance.PlaySound(deathData, transform.position);
         if (Input.GetKeyDown(KeyCode.Alpha4)) AudioManager.Instance.PlaySound(jumpData, transform.position);
+        if (Input.GetKeyDown(KeyCode.Alpha5)) AudioManager.Instance.PlaySound(meleeData, transform.position);
 
         // Test Salute (Frecce Su/Giù)
         if (Input.GetKey(KeyCode.UpArrow)) simulatedHP = Mathf.Min(100, simulatedHP + 0.5f);

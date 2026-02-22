@@ -37,6 +37,12 @@ public sealed class AudioManager : MonoBehaviour
         }
 
         Instance = this;
+
+        if (transform.parent != null)
+        {
+            transform.SetParent(null);
+        }
+
         DontDestroyOnLoad(gameObject);
 
         voicePool = new ObjectPool<AudioSource>(CreateVoice, OnGetVoice, OnReleaseVoice, OnDestroyVoice, false, defaultCapacity, maxPoolSize);

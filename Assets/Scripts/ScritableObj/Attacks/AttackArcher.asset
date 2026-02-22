@@ -16,3 +16,4 @@ MonoBehaviour:
   attackOnSequence: 3
   timeEachAttack: 0.25
   canUseY: 1
+  shotAudioEventData: {fileID: 11400000, guid: 81f30fc56d195354fb9ec4dab9ff60db, type: 2}

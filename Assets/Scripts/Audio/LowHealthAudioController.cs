@@ -84,7 +84,8 @@ public sealed class LowHealthAudioController : MonoBehaviour
             float interval = Mathf.Lerp(maxPulseInterval, minPulseInterval, severity);
 
             pulseTimer -= Time.unscaledDeltaTime;
-            if (immediate || pulseTimer <= 0f)
+
+            if (pulseTimer <= 0f)
             {
                 pulseTimer = interval;
                 TriggerPulse(severity);
@@ -94,7 +95,7 @@ public sealed class LowHealthAudioController : MonoBehaviour
         }
         else
         {
-            pulseTimer = 0f;
+            pulseTimer = 0f; 
             targetAmbienceDb = normalAmbienceDb;
         }
 

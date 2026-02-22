@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23fe8c63304c61145a097f2fefebffe7, type: 3}
-  m_Name: ShotData
+  m_Name: MeleeAttackData
   m_EditorClassIdentifier: Assembly-CSharp::AudioEventData
   eventType: 1
   route: 0
   clips:
-  - {fileID: 8300000, guid: 50b72d6fdeaa6684281da8ac0dc09ba6, type: 3}
-  - {fileID: 8300000, guid: ec4c341600e1aa543b3dd40d3cad0c76, type: 3}
+  - {fileID: 8300000, guid: b75601551cc6f694fa0e8f6ddfaa0af6, type: 3}
   volume: 1
   spatial: 1

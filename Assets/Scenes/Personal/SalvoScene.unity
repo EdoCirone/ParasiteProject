@@ -792,6 +792,56 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &524440147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524440149}
+  - component: {fileID: 524440148}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &524440148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524440147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9ef3e026749364ea0d2bb5da6c47f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  defaultCapacity: 32
+  maxPoolSize: 128
+  sfxWeaponsGroup: {fileID: 835818117668416207, guid: 770993bdb04a5494583e6a6ac911191b, type: 2}
+  sfxImpactsGroup: {fileID: -1992815544481843728, guid: 770993bdb04a5494583e6a6ac911191b, type: 2}
+  randomPitchMin: 0.95
+  randomPitchMax: 1.05
+--- !u!4 &524440149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524440147}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1574880525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593830639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,6 +1852,9 @@ MonoBehaviour:
   layerEnemy:
     serializedVersion: 2
     m_Bits: 0
+  damageAudioEventData: {fileID: 0}
+  deathAudioEventData: {fileID: 0}
+  damageAudioMinInterval: 0.05
   hp: 0
   X: 0
   Y: 0
@@ -1809,6 +1862,7 @@ MonoBehaviour:
   percentHpForLoss: 70
   velocityLossHp: 4
   hpLoseOverTime: 10
+  parasitePossessionAudioEventData: {fileID: 0}
 --- !u!50 &1343431614
 Rigidbody2D:
   serializedVersion: 5
@@ -2168,6 +2222,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1762926618}
+  - {fileID: 524440149}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612349251
@@ -2332,6 +2387,7 @@ MonoBehaviour:
   hitData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
   deathData: {fileID: 11400000, guid: 6044f77e75092904ca294d4ab851a298, type: 2}
   jumpData: {fileID: 11400000, guid: 0a93f274a2128f943bccaea02cc2bd98, type: 2}
+  meleeData: {fileID: 11400000, guid: 629f65ab9e27146418006b38e69f0530, type: 2}
   healthController: {fileID: 1343431615}
   simulatedHP: 100
 --- !u!1 &1841226633
