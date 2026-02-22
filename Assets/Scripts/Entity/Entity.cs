@@ -8,12 +8,17 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Transform visual;
     [SerializeField] protected bool isPlayer;
     [SerializeField] protected LayerMask layerEnemy;
+    [Header("Audio")]
+    [SerializeField] protected AudioEventData damageAudioEventData;
+    [SerializeField] protected AudioEventData deathAudioEventData;
+    [SerializeField, Min(0f)] private float damageAudioMinInterval = 0.05f;
 
     protected Rigidbody2D rb;
     protected float maxHp;
     [SerializeField]protected float hp;
     protected bool isDeath;
     protected Vector2 facingDir = Vector2.right;
+    private float nextDamageAudioTime;
 
     public Vector2 FacingDir => facingDir;
 
@@ -111,8 +116,29 @@ public class Entity : MonoBehaviour
     {
         hp -= damage;
 
+        if (Time.time >= nextDamageAudioTime)
+        {
+            nextDamageAudioTime = Time.time + damageAudioMinInterval;
+            TryPlayAudio(damageAudioEventData, transform.position);
+        }
+
         //Danno Visivo
         //Rumore?
+    }
+
+    protected void PlayDeathAudio()
+    {
+        TryPlayAudio(deathAudioEventData, transform.position);
+    }
+
+    protected void TryPlayAudio(AudioEventData eventData, Vector3 position)
+    {
+        if (!eventData) return;
+
+        AudioManager audioManager = AudioManager.Instance;
+        if (!audioManager) return;
+
+        audioManager.PlaySound(eventData, position);
     }
 
 }

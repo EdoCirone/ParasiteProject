@@ -32,6 +32,7 @@ public class EnemyController : Entity
         {
             hp = 0;
             isDeath = true;
+            PlayDeathAudio();
             rb.linearVelocity = Vector3.zero;
 
             StartCoroutine(DyingRoutine());

@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: AttackFarmer
   m_EditorClassIdentifier: Assembly-CSharp::AttackFarmer
   baseSword: {fileID: 1898946987810552902, guid: 0a04add0c80c8e94b8a66175040facea, type: 3}
-  UsableX: 1
-  UsableY: 0
+  swingAudioEventData: {fileID: 11400000, guid: 629f65ab9e27146418006b38e69f0530, type: 2}
