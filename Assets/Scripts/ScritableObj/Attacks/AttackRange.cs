@@ -5,7 +5,6 @@ public class AttackRange : AttackBase_SO
 {
     [SerializeField] private int attackOnSequence = 1;
     [SerializeField] private float timeEachAttack = 0.25f;
-    [SerializeField] private bool canUseY;
     [Header("Audio")]
     [SerializeField] private AudioEventData shotAudioEventData;
 
@@ -21,7 +20,9 @@ public class AttackRange : AttackBase_SO
         if (!canUseY) dir = new Vector2(Mathf.Sign(dir.x == 0 ? 1 : dir.x), 0);
         dir.Normalize();
 
-        BaseBullet bullet = Instantiate(baseBullet, attackPoint.position, Quaternion.identity);
+        GameObject bulletObj = wepon.SpawnObj(attackPoint.position, Quaternion.identity);
+
+        BaseBullet bullet = bulletObj.GetComponent<BaseBullet>();
         if (shotAudioEventData && AudioManager.Instance)
             AudioManager.Instance.PlaySound(shotAudioEventData, attackPoint.position);
         bullet.SetDirectionAndSpeed(dir, rbEntity.linearVelocity.magnitude, entity.GetDamage());
