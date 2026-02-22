@@ -23,6 +23,8 @@ public sealed class LowHealthAudioController : MonoBehaviour
 
     private float pulseTimer;
     private float targetAmbienceDb;
+    private bool debugHealthOverrideActive;
+    private float debugHealth01 = 1f;
 
     private void OnEnable()
     {
@@ -39,14 +41,41 @@ public sealed class LowHealthAudioController : MonoBehaviour
         }
     }
 
+    public void SetHealthForDebug(float healthPercent)
+    {
+        debugHealthOverrideActive = true;
+        debugHealth01 = Mathf.Clamp01(healthPercent);
+        ApplyHealthState(debugHealth01, true);
+    }
+
     private void Update()
     {
-        if (playerEntity == null || playerEntity.MaxHp <= 0f)
+        if (TryGetHealth01(out float hp01))
         {
-            return;
+            ApplyHealthState(hp01, false);
+        }
+    }
+
+    private bool TryGetHealth01(out float hp01)
+    {
+        if (debugHealthOverrideActive)
+        {
+            hp01 = debugHealth01;
+            return true;
         }
 
-        float hp01 = Mathf.Clamp01(playerEntity.Hp / playerEntity.MaxHp);
+        if (playerEntity == null || playerEntity.MaxHp <= 0f)
+        {
+            hp01 = 1f;
+            return false;
+        }
+
+        hp01 = Mathf.Clamp01(playerEntity.Hp / playerEntity.MaxHp);
+        return true;
+    }
+
+    private void ApplyHealthState(float hp01, bool immediate)
+    {
         bool isLowHealth = hp01 <= lowHealthThreshold;
 
         if (isLowHealth)
@@ -55,18 +84,10 @@ public sealed class LowHealthAudioController : MonoBehaviour
             float interval = Mathf.Lerp(maxPulseInterval, minPulseInterval, severity);
 
             pulseTimer -= Time.unscaledDeltaTime;
-            if (pulseTimer <= 0f)
+            if (immediate || pulseTimer <= 0f)
             {
                 pulseTimer = interval;
-                if (AudioManager.Instance != null && lowHealthEventData != null)
-                {
-                    AudioManager.Instance.PlaySound(lowHealthEventData, transform.position);
-                }
-                else if (pulseSource != null)
-                {
-                    pulseSource.pitch = Mathf.Lerp(1f, 1.2f, severity);
-                    pulseSource.Play();
-                }
+                TriggerPulse(severity);
             }
 
             targetAmbienceDb = Mathf.Lerp(lowDuckMinDb, lowDuckMaxDb, severity);
@@ -77,11 +98,39 @@ public sealed class LowHealthAudioController : MonoBehaviour
             targetAmbienceDb = normalAmbienceDb;
         }
 
-        if (mixer != null)
+        ApplyAmbienceDuck(immediate);
+    }
+
+    private void TriggerPulse(float severity)
+    {
+        if (AudioManager.Instance != null && lowHealthEventData != null)
         {
-            mixer.GetFloat(ambienceVolumeParam, out float currentDb);
-            float nextDb = Mathf.Lerp(currentDb, targetAmbienceDb, Time.unscaledDeltaTime * duckLerpSpeed);
-            mixer.SetFloat(ambienceVolumeParam, nextDb);
+            AudioManager.Instance.PlaySound(lowHealthEventData, transform.position);
+            return;
         }
+
+        if (pulseSource != null)
+        {
+            pulseSource.pitch = Mathf.Lerp(1f, 1.2f, severity);
+            pulseSource.Play();
+        }
+    }
+
+    private void ApplyAmbienceDuck(bool immediate)
+    {
+        if (mixer == null)
+        {
+            return;
+        }
+
+        if (immediate)
+        {
+            mixer.SetFloat(ambienceVolumeParam, targetAmbienceDb);
+            return;
+        }
+
+        mixer.GetFloat(ambienceVolumeParam, out float currentDb);
+        float nextDb = Mathf.Lerp(currentDb, targetAmbienceDb, Time.unscaledDeltaTime * duckLerpSpeed);
+        mixer.SetFloat(ambienceVolumeParam, nextDb);
     }
 }
