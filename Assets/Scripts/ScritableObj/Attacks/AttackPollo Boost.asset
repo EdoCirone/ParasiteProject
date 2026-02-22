@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: AttackPollo Boost
   m_EditorClassIdentifier: Assembly-CSharp::AttackPollo
   wepon: {fileID: 11400000, guid: 2a983ee45a6c4f44093d9736aeb924dd, type: 2}
-  canUseY: 0
+  canUseY: 1
   attackOnSequence: 1
   timeEachAttack: 0.25

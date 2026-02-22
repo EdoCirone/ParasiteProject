@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ba806c9bb34ea4f9fb9323450074df, type: 3}
+  m_Name: AttackCavaliere
+  m_EditorClassIdentifier: Assembly-CSharp::AttackFarmer
+  wepon: {fileID: 11400000, guid: a002312acca488844ab465c9a58f0027, type: 2}
+  canUseY: 0

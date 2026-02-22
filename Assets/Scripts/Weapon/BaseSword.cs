@@ -20,6 +20,8 @@ public class BaseSword : MonoBehaviour
     public float damage;
 
     private Pool_Obj pool;
+    private float flipX;
+    private float flipY;
 
     public void Attack(Transform attackPoint, Entity entity)
     {
@@ -35,14 +37,15 @@ public class BaseSword : MonoBehaviour
         transform.localPosition = Vector3.zero;
   
         Quaternion startRot = transform.localRotation;
-        float flip = Mathf.Sign(entity.FacingDir.x == 0 ? 1 : entity.FacingDir.x);
+        flipX = Mathf.Sign(entity.FacingDir.x == 0 ? 1 : entity.FacingDir.x);
+        flipY = Mathf.Sign(entity.FacingDir.y == 0 ? 1 : entity.FacingDir.y);
 
         for (int i = 0; i < attackSequenceMelees.Count; i++)
         {
             AttackSequenceMelee currentAttack = attackSequenceMelees[i];
 
-            LocationWep(currentAttack,flip);
-            RotationWep(currentAttack,flip,startRot);
+            LocationWep(currentAttack,entity);
+            RotationWep(currentAttack,startRot);
 
             yield return new WaitForSeconds(currentAttack.AttackDuration);
         }
@@ -54,20 +57,19 @@ public class BaseSword : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    private void LocationWep(AttackSequenceMelee attack, float flip)
+    private void LocationWep(AttackSequenceMelee attack, Entity entity)
     {
         Vector3 adjustedPosition = attack.AttackPosition;
-        adjustedPosition.x *= flip;
-        adjustedPosition.y *= flip;
-        adjustedPosition.z *= flip;
+        adjustedPosition.x *= flipX;
+        adjustedPosition.y *= flipY * entity.Y;
 
         transform.DOLocalMove(adjustedPosition, attack.AttackDuration);
     }
 
-    private void RotationWep(AttackSequenceMelee attack,float flip,Quaternion startRot)
+    private void RotationWep(AttackSequenceMelee attack,Quaternion startRot)
     {
         Vector3 adjustedRotation = attack.AttackRotation;
-        adjustedRotation.z *= flip;
+        adjustedRotation.z *= flipX;
 
         Quaternion wepRotation = startRot * Quaternion.Euler(adjustedRotation);
         transform.DOLocalRotateQuaternion(wepRotation, attack.AttackDuration);

@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9f703ef3e8bb34cb28895510980e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_Controller
-  entity: {fileID: 11400000, guid: 2f068881d05935a41ad314c8675ec3e7, type: 2}
+  entity: {fileID: 11400000, guid: b5b20690b703ac04db04e3a45619537d, type: 2}
   visual: {fileID: 7951645132015304482}
   isPlayer: 1
   layerEnemy:
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864439467910252754}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 112278bd3cfe2334aaa75098867798f4, type: 3}
   m_Name: 

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c2e484c3e56ee44b9b4e9392ee5569b, type: 3}
   m_Name: Pollo Boost
   m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
-  MaxHp: 100
+  MaxHp: 200
   Speed: 4.5
-  BoostPlayerSpeed: 1.25
+  BoostPlayerSpeed: 1.5
   Damage: 15
-  BoostPlayerDamage: 1.25
-  VelocityAttack: 0.5
-  BoostPlayerVelocityAttack: 1.25
+  BoostPlayerDamage: 1.5
+  VelocityAttack: 0.75
+  BoostPlayerVelocityAttack: 1.5
   Visual: {fileID: 7573790468067597274, guid: 7c849250c5bdaa247a9e3661ca31ec82, type: 3}
   Attack: {fileID: 11400000, guid: 97fd4ea3394ec9d4a9fd6ec0b92eebc5, type: 2}

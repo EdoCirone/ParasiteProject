@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Entity_SO
   MaxHp: 50
   Speed: 2
-  BoostPlayerSpeed: 2
+  BoostPlayerSpeed: 2.5
   Damage: 1
-  BoostPlayerDamage: 1.25
+  BoostPlayerDamage: 5
   VelocityAttack: 1
-  BoostPlayerVelocityAttack: 1.25
+  BoostPlayerVelocityAttack: 1.5
   Visual: {fileID: 7573790468067597274, guid: 5460a33de6494ab468fdc606a3fd722c, type: 3}
   Attack: {fileID: 11400000, guid: dd328b710d24c5f4a97a676acb0ad77b, type: 2}

@@ -1,8 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Attacks", menuName = "AttackFarmer")]
-public class AttackFarmer : AttackBase_SO
+[CreateAssetMenu(fileName = "Attacks", menuName = "AttackMelee")]
+public class AttackMelee : AttackBase_SO
 {
     public override void Attack(Transform attackPoint, Entity entity)
     {
@@ -13,7 +13,6 @@ public class AttackFarmer : AttackBase_SO
 
         Vector2 dir = entity.FacingDir;
         if (!canUseY) dir = new Vector2(Mathf.Sign(dir.x == 0 ? 1 : dir.x), 0);
-        dir.Normalize();
 
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         float weaponOffset = 180f;
