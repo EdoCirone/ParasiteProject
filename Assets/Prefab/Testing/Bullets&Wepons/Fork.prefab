@@ -233,9 +233,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7385024839308405700}
+  - component: {fileID: 1898946987810552902}
   - component: {fileID: 5110768858448792898}
   - component: {fileID: -5738525115813112772}
-  - component: {fileID: 1898946987810552902}
   m_Layer: 0
   m_Name: Fork
   m_TagString: Untagged
@@ -259,6 +259,36 @@ Transform:
   - {fileID: 4381005419233865201}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1898946987810552902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5919167385911144338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be27923b4bb5e7142966958693424b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BaseSword
+  attackSequenceMelees:
+  - AttackPosition: {x: 0, y: 0, z: 0}
+    AttackRotation: {x: 0, y: 0, z: 0}
+    AttackDuration: 0.05
+  - AttackPosition: {x: 0, y: 0, z: 0}
+    AttackRotation: {x: 0, y: 0, z: 89}
+    AttackDuration: 0.2
+  - AttackPosition: {x: 0, y: 0, z: 0}
+    AttackRotation: {x: 0, y: 0, z: -89}
+    AttackDuration: 0.15
+  - AttackPosition: {x: 0, y: 0, z: 0}
+    AttackRotation: {x: 0, y: 0, z: 0}
+    AttackDuration: 0.1
+  upAngle: -100
+  downAngle: 80
+  windUpTime: 0.15
+  swingTime: 0.08
+  returnTime: 0.12
 --- !u!61 &5110768858448792898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -332,23 +362,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1898946987810552902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5919167385911144338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be27923b4bb5e7142966958693424b50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BaseSword
-  upAngle: -100
-  downAngle: 80
-  windUpTime: 0.15
-  swingTime: 0.08
-  returnTime: 0.12
 --- !u!1 &7026243218669230788
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,28 +54,28 @@ public class BootManager : MonoBehaviour
         AsyncOperation loadOp = SceneManager.LoadSceneAsync(_sceneToLoad);
         loadOp.allowSceneActivation = false;
 
-        //prepara il video
-        _videoPlayer.Prepare();
-        while (!_videoPlayer.isPrepared)
-        {
-            Debug.Log("[BOOT] Attendo preparazione video...");
-            yield return null;
-        }
+        ////prepara il video
+        //_videoPlayer.Prepare();
+        //while (!_videoPlayer.isPrepared)
+        //{
+        //    Debug.Log("[BOOT] Attendo preparazione video...");
+        //    yield return null;
+        //}
 
-        // avvia il video
-        _videoPlayer.Play();
-        Debug.Log("[BOOT] Video avviato");
+        //// avvia il video
+        //_videoPlayer.Play();
+        //Debug.Log("[BOOT] Video avviato");
 
         //ferma il video al tempo desiderato (con fail-safe)
-        float videoTimer = 0f;
-        while (_videoPlayer.time < _stopTimeSeconds && videoTimer < _stopTimeSeconds + 2f)
-        {
-            videoTimer += Time.unscaledDeltaTime;
-            yield return null;
-        }
+        //float videoTimer = 0f;
+        //while (_videoPlayer.time < _stopTimeSeconds && videoTimer < _stopTimeSeconds + 2f)
+        //{
+        //    videoTimer += Time.unscaledDeltaTime;
+        //    yield return null;
+        //}
 
-        _videoPlayer.Pause();
-        Debug.Log($"[BOOT] Video fermato a {_videoPlayer.time:F2}s → fade bianco");
+        //_videoPlayer.Pause();
+        //Debug.Log($"[BOOT] Video fermato a {_videoPlayer.time:F2}s → fade bianco");
 
         // fade bianco per transizione
         yield return StartCoroutine(FadeCanvas(_fadeCanvas, 0f, 1f, _fadeDuration, Color.white));

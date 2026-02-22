@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e68962f82b1e7748b07a2d67bfcf807, type: 3}
   m_Name: AttackArcher
   m_EditorClassIdentifier: Assembly-CSharp::AttackPollo
-  baseBullet: {fileID: 380270175695630152, guid: 5d139839d674f5c4d86a726d490b9473, type: 3}
+  wepon: {fileID: 11400000, guid: 21f90b5b65fcee245baef901c1d174cb, type: 2}
+  canUseY: 1
   attackOnSequence: 3
   timeEachAttack: 0.25
-  canUseY: 1
-  shotAudioEventData: {fileID: 11400000, guid: 81f30fc56d195354fb9ec4dab9ff60db, type: 2}
