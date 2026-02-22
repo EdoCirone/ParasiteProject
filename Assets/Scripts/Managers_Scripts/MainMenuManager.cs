@@ -9,31 +9,35 @@ public class MainMenuManager : MonoBehaviour
     [Header("Panels")]
     [SerializeField] private GameObject _creditsPanel;
     [SerializeField] private GameObject _settingsPanel;
+    [SerializeField] private GameObject _scoreBoardPanel;
     [SerializeField] private RectTransform _mainMenuPanel;
 
     [Header("Animation Settings")]
     [SerializeField] private float _mainFadeDuration = 0.5f;
-    [SerializeField] private Ease _ease = Ease.OutBack;
+    [SerializeField] private Ease _mainEase = Ease.OutBack;
 
     [Header("SubMenu Animation Settings")]
     [SerializeField] private float _subFadeDuration = 0.5f;
     [SerializeField] private Ease _subMenuEase = Ease.OutBack;
+    [SerializeField] private Ease _subMenuCloseEase = Ease.OutCubic;
 
     private bool _isSettingsOpen = false;
     private bool _isCreditsOpen = false;
+    private bool _isScoreBoardOpen = false;
 
     void Start()
     {
         Time.timeScale = 1f;
 
-        if (_creditsPanel != null)_creditsPanel.SetActive(false);
+        if (_creditsPanel != null) _creditsPanel.SetActive(false);
         if (_settingsPanel != null) _settingsPanel.SetActive(false);
+        if (_scoreBoardPanel != null) _scoreBoardPanel.SetActive(false);
 
         if (_mainMenuPanel != null)
         {
             _mainMenuPanel.DOKill(); // Ferma eventuali animazioni in corso
             _mainMenuPanel.localScale = Vector3.zero;
-            _mainMenuPanel.DOScale(Vector3.one, _mainFadeDuration).SetEase(_ease);
+            _mainMenuPanel.DOScale(Vector3.one, _mainFadeDuration).SetEase(_mainEase);
         }
     }
 
@@ -42,17 +46,26 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnCreditsButton()
     {
-        CloseSubMenu(_settingsPanel, ref _isSettingsOpen); // Chiude le settings se aperte
+        CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
+        CloseSubMenu(_settingsPanel, ref _isSettingsOpen);
         OpenSubMenu(_creditsPanel, ref _isCreditsOpen);
     }
 
     public void OnSettingsButton()
     {
-        CloseSubMenu(_creditsPanel, ref _isCreditsOpen); // Chiude i credits se aperti
+        CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
+        CloseSubMenu(_creditsPanel, ref _isCreditsOpen);
         OpenSubMenu(_settingsPanel, ref _isSettingsOpen);
     }
 
-    public void OpenSubMenu(GameObject panel, ref bool isOpen)
+    public void OnScoreBoardButton()
+    {
+        CloseSubMenu(_creditsPanel, ref _isCreditsOpen); // Chiude i credits se aperti
+        CloseSubMenu(_settingsPanel, ref _isSettingsOpen); // Chiude le settings se aperte
+        OpenSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
+    }
+
+    private void OpenSubMenu(GameObject panel, ref bool isOpen)
     {
         if (panel == null) return;
         if (isOpen) return; // Evita di aprire più volte le settings
@@ -68,7 +81,7 @@ public class MainMenuManager : MonoBehaviour
         isOpen = true;
     }
 
-    public void CloseSubMenu(GameObject panel, ref bool isOpen)
+    private void CloseSubMenu(GameObject panel, ref bool isOpen)
     {
         if (panel == null) return;
         if (!isOpen) return; // Evita di chiudere se non è aperto
@@ -77,12 +90,12 @@ public class MainMenuManager : MonoBehaviour
         if (rect != null)
         {
             rect.DOKill(); // Ferma eventuali animazioni in corso
-            rect.DOScale(Vector3.zero, _subFadeDuration).SetEase(_subMenuEase).OnComplete(() =>
+            rect.DOScale(Vector3.zero, _subFadeDuration).SetEase(_subMenuCloseEase).OnComplete(() =>
             {
                 panel.SetActive(false);
             });
         }
-        else 
+        else
             panel.SetActive(false);// Chiude il pannello specificato
         isOpen = false;
 
@@ -90,4 +103,5 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnBackFromCredits() => CloseSubMenu(_creditsPanel, ref _isCreditsOpen);
     public void OnBackFromSettings() => CloseSubMenu(_settingsPanel, ref _isSettingsOpen);
+    public void OnBackFromScoreBoard() => CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
 }
