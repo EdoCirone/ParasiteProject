@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    [SerializeField] private string mainMenuSceneName = "MainMenuScene";
+    [SerializeField] private string mainGameSceneName = "MainScene";
     public static GameManager Instance { get; private set; }
 
     private void Awake()
@@ -18,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     public void StartNewGame()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene(mainGameSceneName);
     }
 
     public void ExitGame()
@@ -29,7 +32,7 @@ public class GameManager : MonoBehaviour
     public void ReturnToMenu()
     {
 
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(mainMenuSceneName);
     }
 
     private void OnDestroy()
