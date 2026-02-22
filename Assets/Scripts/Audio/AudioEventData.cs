@@ -5,7 +5,8 @@ public enum GameAudioEventType
     Hit,
     Shot,
     Death,
-    Jump
+    Jump,
+    LowHealth
 }
 
 public enum AudioRoute

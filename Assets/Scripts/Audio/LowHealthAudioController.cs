@@ -8,6 +8,7 @@ public sealed class LowHealthAudioController : MonoBehaviour
 
     [Header("Alert Pulse")]
     [SerializeField] private AudioSource pulseSource;
+    [SerializeField] private AudioEventData lowHealthEventData;
     [SerializeField, Range(0f, 1f)] private float lowHealthThreshold = 0.30f;
     [SerializeField] private float minPulseInterval = 0.30f;
     [SerializeField] private float maxPulseInterval = 1.20f;
@@ -31,6 +32,11 @@ public sealed class LowHealthAudioController : MonoBehaviour
         {
             mixer.SetFloat(ambienceVolumeParam, normalAmbienceDb);
         }
+
+        if (lowHealthEventData != null && lowHealthEventData.EventType != GameAudioEventType.LowHealth)
+        {
+            Debug.LogWarning($"{nameof(LowHealthAudioController)} expects a LowHealth AudioEventData on {name}.", this);
+        }
     }
 
     private void Update()
@@ -52,7 +58,11 @@ public sealed class LowHealthAudioController : MonoBehaviour
             if (pulseTimer <= 0f)
             {
                 pulseTimer = interval;
-                if (pulseSource != null)
+                if (AudioManager.Instance != null && lowHealthEventData != null)
+                {
+                    AudioManager.Instance.PlaySound(lowHealthEventData, transform.position);
+                }
+                else if (pulseSource != null)
                 {
                     pulseSource.pitch = Mathf.Lerp(1f, 1.2f, severity);
                     pulseSource.Play();
