@@ -1478,6 +1478,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 756559532}
     m_Modifications:
+    - target: {fileID: 2176341360627458485, guid: e7bed8d001f9c27449687493eb529d48, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8864439467910252754, guid: e7bed8d001f9c27449687493eb529d48, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1861,7 +1865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb27b564cc549344eae6bcfb34d528e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapChunkMover
-  _player: {fileID: 0}
+  _player: {fileID: 1241124882}
   mapParent: {fileID: 1841226634}
   _chunkSize: 26
   _distanceThreshold: 1.5
