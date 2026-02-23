@@ -901,7 +901,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 0000000083a096704f4f31e9
@@ -1850,6 +1850,8 @@ MonoBehaviour:
   _mapChunckSize: 26
   _mapChuncks:
   - {fileID: 2781120893832084023, guid: 81efc9ebc2e77c54a89cc2111ad66410, type: 3}
+  - {fileID: 3175048049174157087, guid: 3e84f6cc8c17d8a4e90f8756c510591b, type: 3}
+  - {fileID: 3175048049174157087, guid: e1b8cafa4dba7784986c23eefa8d96a0, type: 3}
   _mapParent: {fileID: 1841226634}
 --- !u!114 &1550058755
 MonoBehaviour:
