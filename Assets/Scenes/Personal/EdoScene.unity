@@ -1850,8 +1850,6 @@ MonoBehaviour:
   _mapChunckSize: 26
   _mapChuncks:
   - {fileID: 2781120893832084023, guid: 81efc9ebc2e77c54a89cc2111ad66410, type: 3}
-  - {fileID: 3175048049174157087, guid: 3e84f6cc8c17d8a4e90f8756c510591b, type: 3}
-  - {fileID: 3175048049174157087, guid: e1b8cafa4dba7784986c23eefa8d96a0, type: 3}
   _mapParent: {fileID: 1841226634}
 --- !u!114 &1550058755
 MonoBehaviour:

@@ -316,12 +316,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 223
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 224
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -338,12 +338,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 224
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 27
+        y: 225
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -360,12 +360,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 223
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 224
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -382,12 +382,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 224
-        width: 21
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 225
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_4
       rect:
         serializedVersion: 2
-        x: 98
-        y: 224
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 99
+        y: 225
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -426,12 +426,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_5
       rect:
         serializedVersion: 2
-        x: 122
-        y: 224
-        width: 19
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 123
+        y: 225
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -448,12 +448,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_6
       rect:
         serializedVersion: 2
-        x: 146
-        y: 223
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 224
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -470,12 +470,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_7
       rect:
         serializedVersion: 2
-        x: 170
-        y: 224
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 171
+        y: 225
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -492,12 +492,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_8
       rect:
         serializedVersion: 2
-        x: 195
-        y: 223
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 196
+        y: 224
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -514,12 +514,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_9
       rect:
         serializedVersion: 2
-        x: 215
-        y: 223
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 216
+        y: 224
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -536,12 +536,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_10
       rect:
         serializedVersion: 2
-        x: 239
-        y: 224
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 225
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -558,12 +558,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_11
       rect:
         serializedVersion: 2
-        x: 267
-        y: 223
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 268
+        y: 224
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -580,12 +580,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_12
       rect:
         serializedVersion: 2
-        x: 5
-        y: 192
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 193
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -602,12 +602,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_13
       rect:
         serializedVersion: 2
-        x: 29
-        y: 192
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 30
+        y: 193
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -624,12 +624,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_14
       rect:
         serializedVersion: 2
-        x: 53
-        y: 192
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 54
+        y: 193
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -646,12 +646,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_15
       rect:
         serializedVersion: 2
-        x: 77
-        y: 192
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 193
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -668,12 +668,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_16
       rect:
         serializedVersion: 2
-        x: 101
-        y: 192
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 193
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -690,12 +690,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_17
       rect:
         serializedVersion: 2
-        x: 125
-        y: 192
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 126
+        y: 193
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -712,12 +712,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_18
       rect:
         serializedVersion: 2
-        x: 149
-        y: 192
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 193
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -734,12 +734,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_19
       rect:
         serializedVersion: 2
-        x: 173
-        y: 192
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 174
+        y: 193
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -756,12 +756,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_20
       rect:
         serializedVersion: 2
-        x: 196
-        y: 192
-        width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 193
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -778,12 +778,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_21
       rect:
         serializedVersion: 2
-        x: 221
-        y: 192
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 222
+        y: 193
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -800,12 +800,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_22
       rect:
         serializedVersion: 2
-        x: 243
-        y: 192
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 244
+        y: 193
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -822,12 +822,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_23
       rect:
         serializedVersion: 2
-        x: 263
-        y: 192
-        width: 21
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 264
+        y: 193
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -844,12 +844,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_24
       rect:
         serializedVersion: 2
-        x: 4
-        y: 160
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5
+        y: 161
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -866,12 +866,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_25
       rect:
         serializedVersion: 2
-        x: 29
-        y: 160
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 30
+        y: 161
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -888,12 +888,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_26
       rect:
         serializedVersion: 2
-        x: 53
-        y: 160
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 54
+        y: 161
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -910,12 +910,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_27
       rect:
         serializedVersion: 2
-        x: 77
-        y: 160
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 161
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -932,12 +932,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_28
       rect:
         serializedVersion: 2
-        x: 101
-        y: 160
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 161
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -954,12 +954,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_29
       rect:
         serializedVersion: 2
-        x: 125
-        y: 160
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 126
+        y: 161
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -976,12 +976,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_30
       rect:
         serializedVersion: 2
-        x: 148
-        y: 160
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 149
+        y: 161
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -998,12 +998,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_31
       rect:
         serializedVersion: 2
-        x: 173
-        y: 160
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 174
+        y: 161
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1020,12 +1020,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_32
       rect:
         serializedVersion: 2
-        x: 197
-        y: 160
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 198
+        y: 161
+        width: 12
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1042,12 +1042,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_33
       rect:
         serializedVersion: 2
-        x: 217
-        y: 160
-        width: 18
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 218
+        y: 161
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1064,12 +1064,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_34
       rect:
         serializedVersion: 2
-        x: 245
-        y: 160
-        width: 14
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 246
+        y: 161
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1086,12 +1086,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_35
       rect:
         serializedVersion: 2
-        x: 269
-        y: 160
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 270
+        y: 161
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1108,12 +1108,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_36
       rect:
         serializedVersion: 2
-        x: 3
-        y: 127
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 128
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1130,12 +1130,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_37
       rect:
         serializedVersion: 2
-        x: 26
-        y: 128
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 27
+        y: 129
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1152,12 +1152,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_38
       rect:
         serializedVersion: 2
-        x: 51
-        y: 127
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 128
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1174,12 +1174,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_39
       rect:
         serializedVersion: 2
-        x: 73
-        y: 128
-        width: 21
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 129
+        width: 19
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1196,12 +1196,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_40
       rect:
         serializedVersion: 2
-        x: 98
-        y: 128
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 99
+        y: 129
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_41
       rect:
         serializedVersion: 2
-        x: 122
-        y: 128
-        width: 19
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 123
+        y: 129
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1240,12 +1240,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_42
       rect:
         serializedVersion: 2
-        x: 147
-        y: 127
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 148
+        y: 128
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1262,12 +1262,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_43
       rect:
         serializedVersion: 2
-        x: 170
-        y: 128
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 171
+        y: 129
+        width: 17
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1284,12 +1284,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_44
       rect:
         serializedVersion: 2
-        x: 195
-        y: 127
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 196
+        y: 128
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,12 +1306,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_45
       rect:
         serializedVersion: 2
-        x: 219
-        y: 127
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 220
+        y: 128
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1328,12 +1328,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_46
       rect:
         serializedVersion: 2
-        x: 242
-        y: 128
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 243
+        y: 129
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1350,12 +1350,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_47
       rect:
         serializedVersion: 2
-        x: 267
-        y: 127
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 268
+        y: 128
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,12 +1372,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_48
       rect:
         serializedVersion: 2
-        x: 3
-        y: 95
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 96
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1394,12 +1394,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_49
       rect:
         serializedVersion: 2
-        x: 27
-        y: 96
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 28
+        y: 97
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1416,12 +1416,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_50
       rect:
         serializedVersion: 2
-        x: 51
-        y: 95
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 96
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,12 +1438,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_51
       rect:
         serializedVersion: 2
-        x: 73
-        y: 95
-        width: 18
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 96
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1460,12 +1460,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_52
       rect:
         serializedVersion: 2
-        x: 100
-        y: 96
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 97
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1482,12 +1482,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_53
       rect:
         serializedVersion: 2
-        x: 124
-        y: 95
-        width: 15
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 125
+        y: 96
+        width: 13
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1504,12 +1504,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_54
       rect:
         serializedVersion: 2
-        x: 3
-        y: 64
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 65
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1526,12 +1526,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_55
       rect:
         serializedVersion: 2
-        x: 27
-        y: 64
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 28
+        y: 65
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1548,12 +1548,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_56
       rect:
         serializedVersion: 2
-        x: 51
-        y: 64
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 65
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1570,12 +1570,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_57
       rect:
         serializedVersion: 2
-        x: 71
-        y: 64
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 72
+        y: 65
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1592,12 +1592,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_58
       rect:
         serializedVersion: 2
-        x: 95
-        y: 64
-        width: 20
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 65
+        width: 18
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1614,12 +1614,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_59
       rect:
         serializedVersion: 2
-        x: 125
-        y: 64
-        width: 18
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 126
+        y: 65
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1636,12 +1636,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_60
       rect:
         serializedVersion: 2
-        x: 5
-        y: 32
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 33
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1658,12 +1658,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_61
       rect:
         serializedVersion: 2
-        x: 30
-        y: 32
-        width: 15
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 31
+        y: 33
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1680,12 +1680,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_62
       rect:
         serializedVersion: 2
-        x: 53
-        y: 32
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 54
+        y: 33
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1702,12 +1702,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_63
       rect:
         serializedVersion: 2
-        x: 73
-        y: 32
-        width: 18
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 74
+        y: 33
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1724,12 +1724,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_64
       rect:
         serializedVersion: 2
-        x: 101
-        y: 32
-        width: 20
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 33
+        width: 18
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1746,12 +1746,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_65
       rect:
         serializedVersion: 2
-        x: 124
-        y: 32
-        width: 21
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 125
+        y: 33
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1768,12 +1768,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_66
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 0
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1790,12 +1790,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_67
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 28
+        y: 1
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1812,12 +1812,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_68
       rect:
         serializedVersion: 2
-        x: 51
+        x: 52
         y: 0
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1834,12 +1834,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_69
       rect:
         serializedVersion: 2
-        x: 77
+        x: 78
         y: 0
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 15
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1856,12 +1856,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_70
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 1
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1878,12 +1878,12 @@ TextureImporter:
       name: Dungeon_HeroMan1_71
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1
-        width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 124
+        y: 2
+        width: 14
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1900,7 +1900,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b63273a097bbb9949bbaa4b6bb9675b9
     internalID: 0
     vertices: []
     indices: 
@@ -1908,7 +1908,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Dungeon_HeroMan1_0: 4827772175416074793
       Dungeon_HeroMan1_1: 356873946747716391
