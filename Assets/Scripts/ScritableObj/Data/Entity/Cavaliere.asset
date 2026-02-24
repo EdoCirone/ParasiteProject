@@ -15,9 +15,9 @@ MonoBehaviour:
   MaxHp: 160
   Speed: 4
   BoostPlayerSpeed: 1.5
-  Damage: 25
+  Damage: 50
   BoostPlayerDamage: 2
   VelocityAttack: 0.5
-  BoostPlayerVelocityAttack: 2
+  BoostPlayerVelocityAttack: 0.5
   Visual: {fileID: 2140063488185465812, guid: 2e741e7f55c382e42a5ef56d985a371c, type: 3}
   Attack: {fileID: 11400000, guid: c84c097c75352cb4e9e2dea704a4dda1, type: 2}

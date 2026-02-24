@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5ba806c9bb34ea4f9fb9323450074df, type: 3}
-  m_Name: AttackCavaliere
+  m_Name: AttackBossAxe
   m_EditorClassIdentifier: Assembly-CSharp::AttackFarmer
-  wepon: {fileID: 11400000, guid: a002312acca488844ab465c9a58f0027, type: 2}
-  canUseY: 1
+  wepon: {fileID: 11400000, guid: c9a90ca197edc4f489ea34ba528c17ef, type: 2}
+  canUseY: 0

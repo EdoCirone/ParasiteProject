@@ -11,7 +11,9 @@ public class AttackMelee : AttackBase_SO
 
         BaseSword sword = obj.GetComponent<BaseSword>();
 
-        Vector2 dir = entity.FacingDir;
+        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 dir = entity.IsPlayer ? (mouseWorldPos - (Vector2)attackPoint.position).normalized : entity.FacingDir;
+
         if (!canUseY) dir = new Vector2(Mathf.Sign(dir.x == 0 ? 1 : dir.x), 0);
 
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;

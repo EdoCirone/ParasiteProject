@@ -16,7 +16,9 @@ public class AttackRange : AttackBase_SO
     
     private void Shooting(Transform attackPoint, Entity entity, Rigidbody2D rbEntity)
     {
-        Vector2 dir = entity.FacingDir;
+        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector2 dir = entity.IsPlayer ? (mouseWorldPos - (Vector2)attackPoint.position).normalized : entity.FacingDir;
         if (!canUseY) dir = new Vector2(Mathf.Sign(dir.x == 0 ? 1 : dir.x), 0);
         dir.Normalize();
 

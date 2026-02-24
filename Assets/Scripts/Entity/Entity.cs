@@ -30,6 +30,8 @@ public class Entity : MonoBehaviour
 
     public Entity_SO Entity_SO => entity;
 
+    public bool IsPlayer => isPlayer;   
+
     public float Hp => hp;
     public float MaxHp => maxHp;    
 

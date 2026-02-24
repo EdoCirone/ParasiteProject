@@ -44,8 +44,8 @@ public class BaseSword : MonoBehaviour
         {
             AttackSequenceMelee currentAttack = attackSequenceMelees[i];
 
-            LocationWep(currentAttack,entity);
             RotationWep(currentAttack,startRot);
+            LocationWep(currentAttack);
 
             yield return new WaitForSeconds(currentAttack.AttackDuration);
         }
@@ -57,11 +57,12 @@ public class BaseSword : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    private void LocationWep(AttackSequenceMelee attack, Entity entity)
+    private void LocationWep(AttackSequenceMelee attack)
     {
-        Vector3 adjustedPosition = attack.AttackPosition;
-        adjustedPosition.x *= flipX;
-        adjustedPosition.y *= flipY * entity.Y;
+        float distance = attack.AttackPosition.x;
+
+        Vector3 forwardDir = transform.right;
+        Vector3 adjustedPosition = forwardDir * distance;
 
         transform.DOLocalMove(adjustedPosition, attack.AttackDuration);
     }
