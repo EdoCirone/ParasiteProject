@@ -271,7 +271,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3400155415795158369}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: InGameMenuManager, Assembly-CSharp
+        m_MethodName: OnSettingsButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2586603027838494219
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.05351724}
   m_AnchorMax: {x: 1, y: 0.05351724}
-  m_AnchoredPosition: {x: -100, y: 0.9200134}
+  m_AnchoredPosition: {x: -100, y: 0.92004395}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4311373216456787462
@@ -606,8 +618,8 @@ CanvasGroup:
   m_GameObject: {fileID: 3594650927032274630}
   m_Enabled: 1
   m_Alpha: 0.75
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 1
 --- !u!1 &3732086592983155962
 GameObject:
@@ -929,7 +941,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4184517152390388040}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: InGameMenuManager, Assembly-CSharp
+        m_MethodName: OnExitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6018970884744579361
 GameObject:
   m_ObjectHideFlags: 0
