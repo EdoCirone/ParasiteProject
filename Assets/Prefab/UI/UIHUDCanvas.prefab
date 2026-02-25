@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 3860329482320950351}
   - component: {fileID: 1812732746200084453}
   m_Layer: 5
-  m_Name: UIScreenSpaceCanvas
+  m_Name: UIHUDCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
