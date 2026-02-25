@@ -622,6 +622,94 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000015259, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &491703799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491703800}
+  - component: {fileID: 491703802}
+  - component: {fileID: 491703801}
+  - component: {fileID: 491703803}
+  m_Layer: 5
+  m_Name: AllertVignette
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &491703800
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491703799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1564546600}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &491703801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491703799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1076847300340411460, guid: f014497bb074879458aeb4f5a291acbb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &491703802
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491703799}
+  m_CullTransparentMesh: 1
+--- !u!225 &491703803
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491703799}
+  m_Enabled: 1
+  m_Alpha: 0.75
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,7 +1266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a47f4f9a55b4f45952c7d1e83ec4a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthBarUI
-  _player: {fileID: 0}
+  _player: {fileID: 1241124883}
   _healthBarFill: {fileID: 108432996}
 --- !u!114 &956328004
 MonoBehaviour:
@@ -1193,10 +1281,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealtBarAllert
   _healthBar: {fileID: 108432996}
-  _allertImage: {fileID: 1354313778}
-  _valueToAllert: 0.3
+  _alertImage: {fileID: 1354313778}
+  _alertVignette: {fileID: 491703799}
+  _valueToAlert: 0.3
   _timeinterval: 0.5
   _pulseScale: 1.2
+  _maxAlphaVignette: 0.5
 --- !u!1 &983433632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1626,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8916610912424036748, guid: e7bed8d001f9c27449687493eb529d48, type: 3}
   m_PrefabInstance: {fileID: 1241124881}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1241124883 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3329451342888416151, guid: e7bed8d001f9c27449687493eb529d48, type: 3}
+  m_PrefabInstance: {fileID: 1241124881}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f703ef3e8bb34cb28895510980e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_Controller
 --- !u!1 &1318283567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,6 +2064,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 491703800}
   - {fileID: 1318283568}
   - {fileID: 2003186855}
   m_Father: {fileID: 203126046}
@@ -2236,7 +2338,7 @@ GameObject:
   - component: {fileID: 2003186857}
   - component: {fileID: 2003186856}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Point Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
