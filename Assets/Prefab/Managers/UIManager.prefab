@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 294516095034947283}
   - component: {fileID: 5886770274745044382}
   - component: {fileID: 3064613861164502652}
+  - component: {fileID: 6029787582718087392}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -65,4 +66,21 @@ MonoBehaviour:
   _valueToAlert: 0.3
   _timeinterval: 0.5
   _pulseScale: 1.2
-  _maxAlphaVignette: 0.5
+  _maxAlphaVignette: 0.75
+--- !u!114 &6029787582718087392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199400196904661987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec3b40836ceec44ab4daa4452c1fb02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InGameMenuManager
+  _optionMenu: {fileID: 0}
+  _exitConfirmPanel: {fileID: 0}
+  _subFadeDuration: 0.5
+  _subMenuEase: 27
+  _subMenuCloseEase: 26

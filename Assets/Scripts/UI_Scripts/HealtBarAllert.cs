@@ -45,11 +45,14 @@ public class HealtBarAllert : MonoBehaviour
             Debug.LogError("HealthBar or AllertImage/Vignette reference is missing in HealtBarAllert script.");
             return;
         }
+        _isAlertActive = false;
+
     }
 
     private void Update()
     {
-        if (_healthBar == null || _alertImage == null || _alertVignette == null || _alertVignetteCanvasGroup) return;
+
+        if (_healthBar == null || _alertImage == null || _alertVignette == null || _alertVignetteCanvasGroup == null) return;
 
         bool shouldAllertBeActive = _healthBar.value <= _valueToAlert;
 
@@ -65,6 +68,7 @@ public class HealtBarAllert : MonoBehaviour
 
     private void StartAlert()
     {
+
         _isAlertActive = true;
         _alertImage.SetActive(true);
         _alertImage.transform.localScale = Vector3.one; // Reset scale before starting the pulse animation

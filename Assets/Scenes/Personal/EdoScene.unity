@@ -988,65 +988,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 203126046}
     m_Modifications:
     - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7202496552380213372}
-    - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnExitButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InGameMenuManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2201419387528313446, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4750157173302938305, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.92004395
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7202496552380213372}
     - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnSettingsButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: InGameMenuManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000455290727029383, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7202496552380213372}
     - target: {fileID: 6018970884744579361, guid: d005e658bad78ca4ab9907869010bf51, type: 3}
       propertyPath: m_Name
       value: UIHUDCanvas
@@ -1438,6 +1386,14 @@ PrefabInstance:
       propertyPath: _healthBarFill
       value: 
       objectReference: {fileID: 108432996}
+    - target: {fileID: 6029787582718087392, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
+      propertyPath: _optionMenu
+      value: 
+      objectReference: {fileID: 7005691549302943947}
+    - target: {fileID: 6029787582718087392, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
+      propertyPath: _exitConfirmPanel
+      value: 
+      objectReference: {fileID: 151185708}
     - target: {fileID: 7199400196904661987, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
       propertyPath: m_Name
       value: UIManager
@@ -1445,33 +1401,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7199400196904661987, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7202496552380213372}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
---- !u!1 &7202496552380213371 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7199400196904661987, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
+--- !u!114 &7202496552380213372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6029787582718087392, guid: 8e3ff59793d2c9a40a2b5b48b1612e9b, type: 3}
   m_PrefabInstance: {fileID: 7202496552380213370}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7202496552380213372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7202496552380213371}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cec3b40836ceec44ab4daa4452c1fb02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InGameMenuManager
-  _optionMenu: {fileID: 7005691549302943947}
-  _exitConfirmPanel: {fileID: 151185708}
-  _subFadeDuration: 0.5
-  _subMenuEase: 27
-  _subMenuCloseEase: 26
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

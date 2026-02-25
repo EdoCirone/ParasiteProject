@@ -45,11 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd5bb6852af86714e8ec60372bddd102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TilableMap
-  _mapChunckSize: 26
-  _mapChuncks:
+  _mapChunkSize: 26
+  _mapChunks:
   - {fileID: 2781120893832084023, guid: 81efc9ebc2e77c54a89cc2111ad66410, type: 3}
   - {fileID: 3175048049174157087, guid: 3e84f6cc8c17d8a4e90f8756c510591b, type: 3}
   - {fileID: 3175048049174157087, guid: e1b8cafa4dba7784986c23eefa8d96a0, type: 3}
+  _mapSizeX: 3
   _mapParent: {fileID: 0}
 --- !u!114 &211548448085835599
 MonoBehaviour:
@@ -65,5 +66,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MapChunkMover
   _player: {fileID: 0}
   mapParent: {fileID: 0}
-  _chunkSize: 26
+  _tileMap: {fileID: 5655968303277113110}
   _distanceThreshold: 1.5
