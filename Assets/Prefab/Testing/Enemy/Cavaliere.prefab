@@ -53,6 +53,9 @@ MonoBehaviour:
   layerEnemy:
     serializedVersion: 2
     m_Bits: 1024
+  damageAudioEventData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
+  deathAudioEventData: {fileID: 11400000, guid: 6044f77e75092904ca294d4ab851a298, type: 2}
+  damageAudioMinInterval: 0.05
   hp: 0
   X: 0
   Y: 0

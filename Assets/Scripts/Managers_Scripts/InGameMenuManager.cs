@@ -117,7 +117,7 @@ public class InGameMenuManager : MonoBehaviour
         PlayClickAudio();
         PlayClickAudio();
 
-
+    }
     private void PlayClickAudio()
     {
         if (!onClickAudioEventData) return;
@@ -126,7 +126,7 @@ public class InGameMenuManager : MonoBehaviour
         if (!audioManager) return;
 
         audioManager.PlaySound(onClickAudioEventData, transform.position);
-    }
+    
         Time.timeScale = (_isExitConfirmOpen || _isSettingsOpen || _isGameOverOpen) ? 0f : 1f;// Pausa il gioco se un menu è aperto, altrimenti lo riprende
     }
 

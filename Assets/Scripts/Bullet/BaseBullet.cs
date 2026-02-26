@@ -6,12 +6,13 @@ public class BaseBullet : MonoBehaviour
     [SerializeField] protected float speed = 2f;
     [SerializeField] protected float lifeTime = 5f;
     [SerializeField, Min(0f)] private float onHitMinInterval = 0.05f;
+    [SerializeField] protected AudioEventData onHitAudioEventData;
 
     protected Rigidbody2D rb;
     protected Vector2 direction;
     protected float speedAdd;
     protected float damage;
-    protected AudioEventData onHitAudioEventData;
+   
     protected float nextOnHitAudioTime;
 
     protected Pool_Obj pool;
