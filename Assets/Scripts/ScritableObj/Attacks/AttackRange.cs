@@ -6,7 +6,9 @@ public class AttackRange : AttackBase_SO
     [SerializeField] private int attackOnSequence = 1;
     [SerializeField] private float timeEachAttack = 0.25f;
     [Header("Audio")]
-    [SerializeField] private AudioEventData shotAudioEventData;
+    [SerializeField] private AudioEventData onAttackAudioEventData;
+    [SerializeField] private AudioEventData onHitAudioEventData;
+    [SerializeField] private AudioEventData onReloadAudioEventData;
 
     public override void Attack(Transform attackPoint, Entity entity)
     {
@@ -25,9 +27,10 @@ public class AttackRange : AttackBase_SO
         GameObject bulletObj = wepon.SpawnObj(attackPoint.position, Quaternion.identity);
 
         BaseBullet bullet = bulletObj.GetComponent<BaseBullet>();
-        if (shotAudioEventData && AudioManager.Instance)
-            AudioManager.Instance.PlaySound(shotAudioEventData, attackPoint.position);
-        bullet.SetDirectionAndSpeed(dir, rbEntity.linearVelocity.magnitude, entity.GetDamage());
+        if (!bullet) return;
+
+        TryPlayAudio(onAttackAudioEventData, attackPoint.position);
+        bullet.SetDirectionAndSpeed(dir, rbEntity.linearVelocity.magnitude, entity.GetDamage(), onHitAudioEventData);
         bullet.LayerEnemey = entity.LayerEnemy;
 
         bullet.transform.up = dir;
@@ -40,6 +43,17 @@ public class AttackRange : AttackBase_SO
             Shooting(attackPoint, entity, rbEntity);
             yield return new WaitForSeconds(timeEachAttack);
         }
+        TryPlayAudio(onReloadAudioEventData, attackPoint.position);
         entity.StartAttack();
+    }
+
+    private void TryPlayAudio(AudioEventData eventData, Vector3 position)
+    {
+        if (!eventData) return;
+
+        AudioManager audioManager = AudioManager.Instance;
+        if (!audioManager) return;
+
+        audioManager.PlaySound(eventData, position);
     }
 }
