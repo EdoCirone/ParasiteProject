@@ -844,7 +844,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -858,7 +858,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -911,11 +911,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 175
+        y: 192
         width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -932,12 +932,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 175
-        width: 13
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -954,12 +954,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 191
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -976,12 +976,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_3
       rect:
         serializedVersion: 2
-        x: 50
-        y: 175
-        width: 12
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -998,12 +998,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 175
-        width: 12
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1020,12 +1020,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 175
-        width: 12
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1042,12 +1042,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_6
       rect:
         serializedVersion: 2
-        x: 111
-        y: 175
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1064,12 +1064,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_7
       rect:
         serializedVersion: 2
-        x: 159
-        y: 191
-        width: 21
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1086,12 +1086,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_8
       rect:
         serializedVersion: 2
-        x: 176
-        y: 195
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1108,12 +1108,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_9
       rect:
         serializedVersion: 2
-        x: 177
-        y: 186
-        width: 32
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1130,12 +1130,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_10
       rect:
         serializedVersion: 2
-        x: 227
-        y: 191
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1152,12 +1152,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_11
       rect:
         serializedVersion: 2
-        x: 239
-        y: 175
-        width: 18
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1174,12 +1174,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 191
+        x: 240
+        y: 192
         width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1196,12 +1196,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_13
       rect:
         serializedVersion: 2
-        x: 272
-        y: 182
+        x: 256
+        y: 192
         width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_14
       rect:
         serializedVersion: 2
-        x: 303
-        y: 191
-        width: 66
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1240,12 +1240,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_15
       rect:
         serializedVersion: 2
-        x: 385
-        y: 194
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1262,12 +1262,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_16
       rect:
         serializedVersion: 2
-        x: 401
-        y: 195
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1284,12 +1284,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_17
       rect:
         serializedVersion: 2
-        x: 417
-        y: 195
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1306,12 +1306,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_18
       rect:
         serializedVersion: 2
-        x: 433
-        y: 195
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1328,12 +1328,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_19
       rect:
         serializedVersion: 2
-        x: 449
-        y: 195
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1350,12 +1350,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_20
       rect:
         serializedVersion: 2
-        x: 481
+        x: 400
         y: 192
-        width: 15
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1372,12 +1372,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_21
       rect:
         serializedVersion: 2
-        x: 496
+        x: 416
         y: 192
-        width: 15
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1394,12 +1394,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_22
       rect:
         serializedVersion: 2
-        x: 513
+        x: 432
         y: 192
-        width: 15
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1416,12 +1416,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_23
       rect:
         serializedVersion: 2
-        x: 528
-        y: 191
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1438,12 +1438,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_24
       rect:
         serializedVersion: 2
-        x: 543
-        y: 164
-        width: 33
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1460,12 +1460,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_25
       rect:
         serializedVersion: 2
-        x: 34
-        y: 175
-        width: 13
+        x: 496
+        y: 192
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1482,12 +1482,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_26
       rect:
         serializedVersion: 2
-        x: 159
-        y: 177
-        width: 21
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1504,12 +1504,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_27
       rect:
         serializedVersion: 2
-        x: 179
-        y: 177
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1526,12 +1526,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_28
       rect:
         serializedVersion: 2
-        x: 196
-        y: 177
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1548,12 +1548,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_29
       rect:
         serializedVersion: 2
-        x: 227
-        y: 179
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1570,12 +1570,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_30
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 176
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1592,12 +1592,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_31
       rect:
         serializedVersion: 2
-        x: 304
-        y: 178
-        width: 15
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1614,12 +1614,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_32
       rect:
         serializedVersion: 2
-        x: 323
-        y: 179
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1636,12 +1636,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_33
       rect:
         serializedVersion: 2
-        x: 340
-        y: 181
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1658,12 +1658,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_34
       rect:
         serializedVersion: 2
-        x: 356
-        y: 183
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1680,12 +1680,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_35
       rect:
         serializedVersion: 2
-        x: 389
-        y: 180
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1702,12 +1702,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_36
       rect:
         serializedVersion: 2
-        x: 404
-        y: 179
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1724,12 +1724,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_37
       rect:
         serializedVersion: 2
-        x: 417
+        x: 128
         y: 176
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1746,12 +1746,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_38
       rect:
         serializedVersion: 2
-        x: 432
-        y: 175
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1768,12 +1768,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_39
       rect:
         serializedVersion: 2
-        x: 450
-        y: 175
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1790,12 +1790,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_40
       rect:
         serializedVersion: 2
-        x: 479
+        x: 192
         y: 176
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1812,12 +1812,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_41
       rect:
         serializedVersion: 2
-        x: 495
-        y: 175
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1834,12 +1834,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_42
       rect:
         serializedVersion: 2
-        x: 511
+        x: 240
         y: 176
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1856,12 +1856,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_43
       rect:
         serializedVersion: 2
-        x: 528
-        y: 185
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1878,12 +1878,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_44
       rect:
         serializedVersion: 2
-        x: 529
+        x: 272
         y: 176
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1900,12 +1900,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_45
       rect:
         serializedVersion: 2
-        x: 533
-        y: 175
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1922,12 +1922,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_46
       rect:
         serializedVersion: 2
-        x: 536
-        y: 184
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1944,12 +1944,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_47
       rect:
         serializedVersion: 2
-        x: 4
-        y: 164
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1966,12 +1966,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_48
       rect:
         serializedVersion: 2
-        x: 18
-        y: 161
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1988,12 +1988,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_49
       rect:
         serializedVersion: 2
-        x: 31
-        y: 159
-        width: 18
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2010,12 +2010,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_50
       rect:
         serializedVersion: 2
-        x: 47
-        y: 111
-        width: 34
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2032,12 +2032,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_51
       rect:
         serializedVersion: 2
-        x: 83
-        y: 143
-        width: 12
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2054,12 +2054,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_52
       rect:
         serializedVersion: 2
-        x: 111
-        y: 160
-        width: 18
+        x: 432
+        y: 176
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2076,12 +2076,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_53
       rect:
         serializedVersion: 2
-        x: 131
-        y: 162
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2098,12 +2098,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_54
       rect:
         serializedVersion: 2
-        x: 162
-        y: 159
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2120,12 +2120,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_55
       rect:
         serializedVersion: 2
-        x: 179
-        y: 159
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2142,12 +2142,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_56
       rect:
         serializedVersion: 2
-        x: 197
-        y: 159
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2164,12 +2164,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_57
       rect:
         serializedVersion: 2
-        x: 224
-        y: 144
-        width: 17
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2186,12 +2186,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_58
       rect:
         serializedVersion: 2
-        x: 240
-        y: 145
+        x: 544
+        y: 176
         width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2208,12 +2208,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_59
       rect:
         serializedVersion: 2
-        x: 256
-        y: 159
+        x: 560
+        y: 176
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2230,12 +2230,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_60
       rect:
         serializedVersion: 2
-        x: 272
-        y: 159
+        x: 0
+        y: 160
         width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2252,12 +2252,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_61
       rect:
         serializedVersion: 2
-        x: 303
-        y: 159
-        width: 66
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2274,12 +2274,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_62
       rect:
         serializedVersion: 2
-        x: 388
-        y: 164
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2296,12 +2296,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_63
       rect:
         serializedVersion: 2
-        x: 403
-        y: 163
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2318,12 +2318,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_64
       rect:
         serializedVersion: 2
-        x: 417
-        y: 161
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2340,12 +2340,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_65
       rect:
         serializedVersion: 2
-        x: 432
-        y: 156
+        x: 80
+        y: 160
         width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2362,12 +2362,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_66
       rect:
         serializedVersion: 2
-        x: 447
-        y: 133
-        width: 18
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2384,12 +2384,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_67
       rect:
         serializedVersion: 2
-        x: 485
-        y: 159
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2406,12 +2406,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_68
       rect:
         serializedVersion: 2
-        x: 500
-        y: 159
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2428,12 +2428,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_69
       rect:
         serializedVersion: 2
-        x: 512
-        y: 144
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2450,12 +2450,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_70
       rect:
         serializedVersion: 2
-        x: 532
+        x: 192
         y: 160
-        width: 8
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2472,12 +2472,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_71
       rect:
         serializedVersion: 2
-        x: 4
-        y: 148
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2494,12 +2494,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_72
       rect:
         serializedVersion: 2
-        x: 20
-        y: 147
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2516,12 +2516,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_73
       rect:
         serializedVersion: 2
-        x: 31
-        y: 143
-        width: 18
+        x: 256
+        y: 160
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2538,12 +2538,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_74
       rect:
         serializedVersion: 2
-        x: 116
-        y: 149
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2560,12 +2560,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_75
       rect:
         serializedVersion: 2
-        x: 128
-        y: 146
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2582,12 +2582,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_76
       rect:
         serializedVersion: 2
-        x: 164
-        y: 136
-        width: 8
+        x: 320
+        y: 160
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2604,12 +2604,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_77
       rect:
         serializedVersion: 2
-        x: 178
-        y: 135
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2626,12 +2626,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_78
       rect:
         serializedVersion: 2
-        x: 192
-        y: 95
-        width: 17
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2648,12 +2648,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_79
       rect:
         serializedVersion: 2
-        x: 258
-        y: 145
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2670,12 +2670,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_80
       rect:
         serializedVersion: 2
-        x: 266
-        y: 151
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2692,12 +2692,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_81
       rect:
         serializedVersion: 2
-        x: 276
-        y: 146
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2714,12 +2714,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_82
       rect:
         serializedVersion: 2
-        x: 307
-        y: 146
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2736,12 +2736,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_83
       rect:
         serializedVersion: 2
-        x: 323
-        y: 147
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2758,12 +2758,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_84
       rect:
         serializedVersion: 2
-        x: 339
-        y: 146
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2780,12 +2780,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_85
       rect:
         serializedVersion: 2
-        x: 354
-        y: 147
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2802,12 +2802,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_86
       rect:
         serializedVersion: 2
-        x: 388
-        y: 148
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2824,12 +2824,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_87
       rect:
         serializedVersion: 2
-        x: 402
-        y: 146
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2846,12 +2846,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_88
       rect:
         serializedVersion: 2
-        x: 417
-        y: 145
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2868,12 +2868,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_89
       rect:
         serializedVersion: 2
-        x: 431
-        y: 143
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 160
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2890,12 +2890,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_90
       rect:
         serializedVersion: 2
-        x: 485
-        y: 148
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2912,12 +2912,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_91
       rect:
         serializedVersion: 2
-        x: 499
-        y: 146
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2934,12 +2934,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_92
       rect:
         serializedVersion: 2
-        x: 528
+        x: 32
         y: 144
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2956,12 +2956,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_93
       rect:
         serializedVersion: 2
-        x: 544
-        y: 134
-        width: 26
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2978,12 +2978,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_94
       rect:
         serializedVersion: 2
-        x: 561
-        y: 147
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3000,12 +3000,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_95
       rect:
         serializedVersion: 2
-        x: 111
-        y: 127
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3022,12 +3022,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_96
       rect:
         serializedVersion: 2
-        x: 127
-        y: 129
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3044,12 +3044,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_97
       rect:
         serializedVersion: 2
-        x: 223
-        y: 79
-        width: 66
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3066,12 +3066,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_98
       rect:
         serializedVersion: 2
-        x: 234
-        y: 143
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3088,12 +3088,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_99
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
+        x: 176
+        y: 144
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3110,12 +3110,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_100
       rect:
         serializedVersion: 2
-        x: 335
-        y: 127
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3132,12 +3132,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_101
       rect:
         serializedVersion: 2
-        x: 351
-        y: 118
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3154,12 +3154,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_102
       rect:
         serializedVersion: 2
-        x: 400
-        y: 127
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3176,12 +3176,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_103
       rect:
         serializedVersion: 2
-        x: 3
-        y: 130
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3198,12 +3198,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_104
       rect:
         serializedVersion: 2
-        x: 17
-        y: 130
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3220,12 +3220,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_105
       rect:
         serializedVersion: 2
-        x: 31
-        y: 130
-        width: 18
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3242,12 +3242,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_106
       rect:
         serializedVersion: 2
-        x: 82
-        y: 111
-        width: 13
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3264,12 +3264,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_107
       rect:
         serializedVersion: 2
-        x: 306
-        y: 130
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3286,12 +3286,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_108
       rect:
         serializedVersion: 2
-        x: 386
-        y: 129
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3308,12 +3308,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_109
       rect:
         serializedVersion: 2
-        x: 420
-        y: 131
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3330,12 +3330,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_110
       rect:
         serializedVersion: 2
-        x: 437
-        y: 132
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3352,12 +3352,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_111
       rect:
         serializedVersion: 2
-        x: 480
-        y: 112
+        x: 416
+        y: 144
         width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3374,12 +3374,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_112
       rect:
         serializedVersion: 2
-        x: 501
-        y: 132
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3396,12 +3396,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_113
       rect:
         serializedVersion: 2
-        x: 515
-        y: 131
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3418,12 +3418,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_114
       rect:
         serializedVersion: 2
-        x: 532
-        y: 131
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3440,12 +3440,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_115
       rect:
         serializedVersion: 2
-        x: 547
-        y: 131
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3462,12 +3462,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_116
       rect:
         serializedVersion: 2
-        x: 3
-        y: 115
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3484,12 +3484,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_117
       rect:
         serializedVersion: 2
-        x: 17
-        y: 114
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3506,12 +3506,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_118
       rect:
         serializedVersion: 2
-        x: 32
-        y: 113
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3528,12 +3528,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_119
       rect:
         serializedVersion: 2
-        x: 114
-        y: 113
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3550,12 +3550,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_120
       rect:
         serializedVersion: 2
-        x: 127
-        y: 111
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3572,12 +3572,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_121
       rect:
         serializedVersion: 2
-        x: 163
-        y: 114
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3594,12 +3594,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_122
       rect:
         serializedVersion: 2
-        x: 175
-        y: 97
-        width: 18
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3616,12 +3616,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_123
       rect:
         serializedVersion: 2
-        x: 308
-        y: 116
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3638,12 +3638,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_124
       rect:
         serializedVersion: 2
-        x: 324
-        y: 116
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3660,12 +3660,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_125
       rect:
         serializedVersion: 2
-        x: 341
-        y: 117
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3682,12 +3682,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_126
       rect:
         serializedVersion: 2
-        x: 385
-        y: 112
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3704,12 +3704,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_127
       rect:
         serializedVersion: 2
-        x: 402
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3726,12 +3726,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_128
       rect:
         serializedVersion: 2
-        x: 419
-        y: 114
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3748,12 +3748,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_129
       rect:
         serializedVersion: 2
-        x: 436
-        y: 115
-        width: 23
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3770,12 +3770,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_130
       rect:
         serializedVersion: 2
-        x: 496
-        y: 101
+        x: 192
+        y: 128
         width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3792,12 +3792,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_131
       rect:
         serializedVersion: 2
-        x: 512
-        y: 112
+        x: 224
+        y: 128
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3814,12 +3814,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_132
       rect:
         serializedVersion: 2
-        x: 528
-        y: 112
+        x: 240
+        y: 128
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3836,12 +3836,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_133
       rect:
         serializedVersion: 2
-        x: 544
-        y: 112
+        x: 256
+        y: 128
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3858,12 +3858,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_134
       rect:
         serializedVersion: 2
-        x: 559
-        y: 112
-        width: 17
+        x: 272
+        y: 128
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3880,12 +3880,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_135
       rect:
         serializedVersion: 2
-        x: 2
-        y: 97
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3902,12 +3902,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_136
       rect:
         serializedVersion: 2
-        x: 17
-        y: 98
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3924,12 +3924,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_137
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 336
+        y: 128
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3946,12 +3946,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_138
       rect:
         serializedVersion: 2
-        x: 53
-        y: 97
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3968,12 +3968,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_139
       rect:
         serializedVersion: 2
-        x: 68
-        y: 98
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3990,12 +3990,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_140
       rect:
         serializedVersion: 2
-        x: 84
-        y: 95
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4012,12 +4012,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_141
       rect:
         serializedVersion: 2
-        x: 115
-        y: 98
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4034,12 +4034,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_142
       rect:
         serializedVersion: 2
-        x: 129
-        y: 98
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4056,12 +4056,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_143
       rect:
         serializedVersion: 2
-        x: 165
-        y: 100
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4078,12 +4078,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_144
       rect:
         serializedVersion: 2
-        x: 308
-        y: 99
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4100,12 +4100,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_145
       rect:
         serializedVersion: 2
-        x: 321
-        y: 100
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4122,12 +4122,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_146
       rect:
         serializedVersion: 2
-        x: 340
-        y: 99
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4144,12 +4144,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_147
       rect:
         serializedVersion: 2
-        x: 357
-        y: 98
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4166,12 +4166,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_148
       rect:
         serializedVersion: 2
-        x: 400
-        y: 79
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4188,12 +4188,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_149
       rect:
         serializedVersion: 2
-        x: 422
-        y: 95
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4210,12 +4210,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_150
       rect:
         serializedVersion: 2
-        x: 431
-        y: 95
-        width: 18
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4232,12 +4232,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_151
       rect:
         serializedVersion: 2
-        x: 450
-        y: 95
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4254,12 +4254,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_152
       rect:
         serializedVersion: 2
-        x: 481
-        y: 81
-        width: 14
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4276,12 +4276,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_153
       rect:
         serializedVersion: 2
-        x: 511
-        y: 79
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4298,12 +4298,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_154
       rect:
         serializedVersion: 2
-        x: 516
-        y: 100
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4320,12 +4320,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_155
       rect:
         serializedVersion: 2
-        x: 530
-        y: 97
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4342,12 +4342,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_156
       rect:
         serializedVersion: 2
-        x: 546
-        y: 97
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4364,12 +4364,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_157
       rect:
         serializedVersion: 2
-        x: 562
-        y: 99
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4386,12 +4386,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_158
       rect:
         serializedVersion: 2
-        x: 2
-        y: 82
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4408,12 +4408,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_159
       rect:
         serializedVersion: 2
-        x: 17
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4430,12 +4430,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_160
       rect:
         serializedVersion: 2
-        x: 31
-        y: 63
-        width: 18
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4452,12 +4452,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_161
       rect:
         serializedVersion: 2
-        x: 52
-        y: 83
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4474,12 +4474,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_162
       rect:
         serializedVersion: 2
-        x: 68
-        y: 81
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4496,12 +4496,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_163
       rect:
         serializedVersion: 2
-        x: 84
-        y: 83
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4518,12 +4518,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_164
       rect:
         serializedVersion: 2
-        x: 111
-        y: 79
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4540,12 +4540,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_165
       rect:
         serializedVersion: 2
-        x: 131
-        y: 83
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4562,12 +4562,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_166
       rect:
         serializedVersion: 2
-        x: 162
-        y: 82
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4584,12 +4584,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_167
       rect:
         serializedVersion: 2
-        x: 177
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4606,12 +4606,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_168
       rect:
         serializedVersion: 2
-        x: 192
-        y: 80
+        x: 352
+        y: 112
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4628,12 +4628,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_169
       rect:
         serializedVersion: 2
-        x: 304
-        y: 79
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4650,12 +4650,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_170
       rect:
         serializedVersion: 2
-        x: 320
-        y: 79
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4672,12 +4672,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_171
       rect:
         serializedVersion: 2
-        x: 337
-        y: 80
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4694,12 +4694,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_172
       rect:
         serializedVersion: 2
-        x: 352
-        y: 70
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4716,12 +4716,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_173
       rect:
         serializedVersion: 2
-        x: 383
-        y: 47
-        width: 18
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4738,12 +4738,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_174
       rect:
         serializedVersion: 2
-        x: 417
-        y: 79
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4760,12 +4760,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_175
       rect:
         serializedVersion: 2
-        x: 434
-        y: 79
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4782,12 +4782,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_176
       rect:
         serializedVersion: 2
-        x: 451
-        y: 79
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4804,12 +4804,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_177
       rect:
         serializedVersion: 2
-        x: 496
-        y: 80
+        x: 528
+        y: 112
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4826,12 +4826,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_178
       rect:
         serializedVersion: 2
-        x: 529
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4848,12 +4848,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_179
       rect:
         serializedVersion: 2
-        x: 543
-        y: 79
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4870,12 +4870,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_180
       rect:
         serializedVersion: 2
-        x: 560
-        y: 69
+        x: 0
+        y: 96
         width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4892,12 +4892,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_181
       rect:
         serializedVersion: 2
-        x: 1
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4914,12 +4914,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_182
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
+        x: 32
+        y: 96
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4936,12 +4936,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_183
       rect:
         serializedVersion: 2
-        x: 49
-        y: 66
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4959,11 +4959,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 47
-        width: 33
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -4980,12 +4980,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_185
       rect:
         serializedVersion: 2
-        x: 111
-        y: 64
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5002,12 +5002,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_186
       rect:
         serializedVersion: 2
-        x: 119
-        y: 65
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5025,11 +5025,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 71
-        width: 15
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5046,12 +5046,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_188
       rect:
         serializedVersion: 2
-        x: 129
-        y: 63
-        width: 15
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5068,12 +5068,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_189
       rect:
         serializedVersion: 2
-        x: 159
-        y: 63
-        width: 34
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5090,12 +5090,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_190
       rect:
         serializedVersion: 2
-        x: 193
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5112,12 +5112,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_191
       rect:
         serializedVersion: 2
-        x: 223
-        y: 47
-        width: 17
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5134,12 +5134,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_192
       rect:
         serializedVersion: 2
-        x: 242
-        y: 63
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5157,11 +5157,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 63
+        y: 96
         width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5179,11 +5179,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 63
+        y: 96
         width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5201,11 +5201,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 304
-        y: 63
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5222,12 +5222,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_196
       rect:
         serializedVersion: 2
-        x: 321
-        y: 63
-        width: 15
+        x: 320
+        y: 96
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5244,12 +5244,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_197
       rect:
         serializedVersion: 2
-        x: 337
-        y: 68
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5266,12 +5266,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_198
       rect:
         serializedVersion: 2
-        x: 343
-        y: 73
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5288,12 +5288,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_199
       rect:
         serializedVersion: 2
-        x: 400
-        y: 64
+        x: 384
+        y: 96
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5310,12 +5310,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_200
       rect:
         serializedVersion: 2
-        x: 417
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5332,12 +5332,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_201
       rect:
         serializedVersion: 2
-        x: 434
-        y: 66
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5354,12 +5354,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_202
       rect:
         serializedVersion: 2
-        x: 451
-        y: 67
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5376,12 +5376,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_203
       rect:
         serializedVersion: 2
-        x: 480
-        y: 64
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5398,12 +5398,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_204
       rect:
         serializedVersion: 2
-        x: 497
-        y: 64
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5420,12 +5420,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_205
       rect:
         serializedVersion: 2
-        x: 515
-        y: 66
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5442,12 +5442,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_206
       rect:
         serializedVersion: 2
-        x: 531
-        y: 66
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5464,12 +5464,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_207
       rect:
         serializedVersion: 2
-        x: 549
-        y: 68
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5486,12 +5486,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_208
       rect:
         serializedVersion: 2
-        x: 2
-        y: 51
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5508,12 +5508,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_209
       rect:
         serializedVersion: 2
-        x: 15
-        y: 47
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5530,12 +5530,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_210
       rect:
         serializedVersion: 2
-        x: 33
-        y: 49
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5552,12 +5552,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_211
       rect:
         serializedVersion: 2
-        x: 48
-        y: 47
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5574,12 +5574,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_212
       rect:
         serializedVersion: 2
-        x: 114
-        y: 48
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5596,12 +5596,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_213
       rect:
         serializedVersion: 2
-        x: 128
-        y: 49
-        width: 17
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5618,12 +5618,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_214
       rect:
         serializedVersion: 2
-        x: 165
-        y: 53
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5640,12 +5640,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_215
       rect:
         serializedVersion: 2
-        x: 179
-        y: 51
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5662,12 +5662,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_216
       rect:
         serializedVersion: 2
-        x: 194
-        y: 50
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5684,12 +5684,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_217
       rect:
         serializedVersion: 2
-        x: 240
-        y: 47
+        x: 128
+        y: 80
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5706,12 +5706,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_218
       rect:
         serializedVersion: 2
-        x: 257
-        y: 47
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5728,12 +5728,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_219
       rect:
         serializedVersion: 2
-        x: 274
-        y: 47
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5750,12 +5750,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_220
       rect:
         serializedVersion: 2
-        x: 305
-        y: 49
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5772,12 +5772,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_221
       rect:
         serializedVersion: 2
-        x: 321
-        y: 49
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5794,12 +5794,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_222
       rect:
         serializedVersion: 2
-        x: 337
-        y: 49
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5816,12 +5816,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_223
       rect:
         serializedVersion: 2
-        x: 353
-        y: 49
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5838,12 +5838,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_224
       rect:
         serializedVersion: 2
-        x: 400
-        y: 48
+        x: 272
+        y: 80
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5860,12 +5860,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_225
       rect:
         serializedVersion: 2
-        x: 417
-        y: 49
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5882,12 +5882,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_226
       rect:
         serializedVersion: 2
-        x: 434
-        y: 50
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5904,12 +5904,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_227
       rect:
         serializedVersion: 2
-        x: 435
-        y: 5
-        width: 30
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5926,12 +5926,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_228
       rect:
         serializedVersion: 2
-        x: 480
-        y: 33
-        width: 29
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5948,12 +5948,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_229
       rect:
         serializedVersion: 2
-        x: 534
-        y: 35
+        x: 384
+        y: 80
         width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5970,12 +5970,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_230
       rect:
         serializedVersion: 2
-        x: 550
-        y: 37
-        width: 26
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -5992,12 +5992,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_231
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6014,12 +6014,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_232
       rect:
         serializedVersion: 2
-        x: 15
-        y: 31
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6036,12 +6036,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_233
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 448
+        y: 80
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6058,12 +6058,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_234
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
+        x: 480
+        y: 80
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6080,12 +6080,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_235
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
+        x: 496
+        y: 80
         width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6102,12 +6102,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_236
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6124,12 +6124,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_237
       rect:
         serializedVersion: 2
-        x: 114
-        y: 35
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6146,12 +6146,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_238
       rect:
         serializedVersion: 2
-        x: 129
-        y: 35
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6168,12 +6168,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_239
       rect:
         serializedVersion: 2
-        x: 159
-        y: 15
-        width: 18
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6190,12 +6190,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_240
       rect:
         serializedVersion: 2
-        x: 177
-        y: 15
+        x: 0
+        y: 64
         width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6212,12 +6212,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_241
       rect:
         serializedVersion: 2
-        x: 192
-        y: 15
+        x: 16
+        y: 64
         width: 16
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6234,12 +6234,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_242
       rect:
         serializedVersion: 2
-        x: 223
-        y: 33
-        width: 18
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6256,12 +6256,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_243
       rect:
         serializedVersion: 2
-        x: 240
-        y: 33
+        x: 48
+        y: 64
         width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6278,12 +6278,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_244
       rect:
         serializedVersion: 2
-        x: 255
-        y: 33
-        width: 18
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6300,12 +6300,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_245
       rect:
         serializedVersion: 2
-        x: 272
-        y: 33
+        x: 80
+        y: 64
         width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6322,12 +6322,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_246
       rect:
         serializedVersion: 2
-        x: 303
-        y: 32
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6344,12 +6344,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_247
       rect:
         serializedVersion: 2
-        x: 319
-        y: 32
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6366,12 +6366,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_248
       rect:
         serializedVersion: 2
-        x: 335
-        y: 32
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6388,12 +6388,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_249
       rect:
         serializedVersion: 2
-        x: 351
-        y: 27
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6410,12 +6410,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_250
       rect:
         serializedVersion: 2
-        x: 389
-        y: 8
-        width: 23
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6432,12 +6432,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_251
       rect:
         serializedVersion: 2
-        x: 484
-        y: 34
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6454,12 +6454,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_252
       rect:
         serializedVersion: 2
-        x: 505
-        y: 35
-        width: 14
+        x: 240
+        y: 64
+        width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6476,12 +6476,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_253
       rect:
         serializedVersion: 2
-        x: 519
-        y: 34
+        x: 256
+        y: 64
         width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6498,12 +6498,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_254
       rect:
         serializedVersion: 2
-        x: 544
-        y: 0
-        width: 32
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6520,12 +6520,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_255
       rect:
         serializedVersion: 2
-        x: 551
-        y: 36
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6542,12 +6542,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_256
       rect:
         serializedVersion: 2
-        x: 111
-        y: 17
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6564,12 +6564,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_257
       rect:
         serializedVersion: 2
-        x: 128
-        y: 15
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6586,12 +6586,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_258
       rect:
         serializedVersion: 2
-        x: 223
-        y: 0
-        width: 66
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6608,12 +6608,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_259
       rect:
         serializedVersion: 2
-        x: 306
-        y: 17
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6630,12 +6630,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_260
       rect:
         serializedVersion: 2
-        x: 308
-        y: 3
-        width: 25
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6652,12 +6652,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_261
       rect:
         serializedVersion: 2
-        x: 323
-        y: 17
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 416
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6674,12 +6674,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_262
       rect:
         serializedVersion: 2
-        x: 336
-        y: 1
-        width: 15
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6696,12 +6696,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_263
       rect:
         serializedVersion: 2
-        x: 351
-        y: 0
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 448
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6718,12 +6718,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_264
       rect:
         serializedVersion: 2
-        x: 417
-        y: 0
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6740,12 +6740,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_265
       rect:
         serializedVersion: 2
-        x: 433
-        y: 0
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 496
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6762,12 +6762,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_266
       rect:
         serializedVersion: 2
-        x: 453
-        y: 0
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6784,12 +6784,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_267
       rect:
         serializedVersion: 2
-        x: 484
-        y: 0
-        width: 23
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6806,12 +6806,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_268
       rect:
         serializedVersion: 2
-        x: 517
-        y: 0
-        width: 7
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 544
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6828,12 +6828,12 @@ TextureImporter:
       name: Water Effect and Bullet 16x16_269
       rect:
         serializedVersion: 2
-        x: 532
-        y: 0
-        width: 9
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -6846,11 +6846,2211 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bc1179e2696fb4ea77298e19b40409
+      internalID: 728604087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_271
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5fba1aef8a3404fb667208695f9cac
+      internalID: -1026103841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_272
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c944948a717ef2499584d7385c08296
+      internalID: -472435145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_273
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7dd6d49aff0e341be507a216553d25
+      internalID: 611393274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_274
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20cbeedb3837e5439f9e37edb8c42f3
+      internalID: 1959926354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_275
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23f77be439982b40897709d84b5d6d8
+      internalID: 1058562432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_276
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f884f8d33f4b71944bb048f5df5b9d60
+      internalID: -1928151543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_277
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbc2ad2fa4b214478954e53a52fe5fd
+      internalID: 226330929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_278
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89191df74adf2d347b9e094155587fa4
+      internalID: 1901560266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_279
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53123eb13d901948ae24593c3478d92
+      internalID: 369175839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_280
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc2ac3a73703042a0395c6e4d8c6de
+      internalID: -1947895157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_281
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2e829312f53b743b806204d4aa208e
+      internalID: -1983891909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_282
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcae8f2cb80e6674c9ac7d9df685894f
+      internalID: -547420607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_283
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10940b8fc5b8fe047bb3fc2f4e604d16
+      internalID: -985517242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_284
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aa80527fc45b54da02fba9bea0d256
+      internalID: -2051709301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_285
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec72ed9201a944b418942a28ab6d5788
+      internalID: -995537703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_286
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a399c64c400563b41bb02df6e2dc04f5
+      internalID: -384953299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_287
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f659534c3803d49b30badfcf28ede7
+      internalID: 432317473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_288
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c051b6d08564d40ac82dcc59d48a5e
+      internalID: -158585477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_289
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3203f6af8c85a1d4baa2a253213ba1b3
+      internalID: -1408875174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_290
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274fc60b94e567c4d95a0e13c1318caf
+      internalID: 1423391598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_291
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c410615738b70444ba154b6d98fd974e
+      internalID: -120223215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_292
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924a032107416ec4ea83412497331235
+      internalID: 1401395386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_293
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dc801d3eceadd4b908158d6b954da7
+      internalID: -844420268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_294
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5bb0af4c922224d9980ab6c39b463a
+      internalID: -1712571099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_295
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6999bd9a3dcd7b040ba6df44ee595622
+      internalID: 700547947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_296
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efb44c9f735c7a4ca14bc3eb6fffd83
+      internalID: 1345474392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_297
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5084cb9204a5a614ead37a7534f3bec9
+      internalID: 106467204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_298
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8efaec747d89b341b5f4a4bf475dc02
+      internalID: -786473012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_299
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b74d43fba565204eb80c7b53c4eea55
+      internalID: -1044880102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_300
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5a494c31eca8c4c89c790bc5ff46b5
+      internalID: 860261754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_301
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf751941a6d103c4d9492052cf25cfbb
+      internalID: -37617888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_302
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd9e26726eb4e4281a3ca44232d0bd
+      internalID: 45601061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_303
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856a1c215de15914093338387d9679a3
+      internalID: 260891218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_304
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a4f0d784ed154cb666a3f14b6963e
+      internalID: -1415087236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_305
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe2d3511541be140aea3f2f3ac41e9b
+      internalID: -1899198384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_306
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f27cca690077e42bfbd9ae477130bd
+      internalID: 477069951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_307
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c91b996f543b142b6993385547fe47
+      internalID: -1359667977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_308
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ed6a376655904d836fecb83e53030
+      internalID: -9740062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_309
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cd24a66d7c4dc439681dbac7e73acf
+      internalID: -1630174771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_310
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196f86eb56a2e7344a8cbd2a1366bc80
+      internalID: 417095165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_311
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe963507744c6142ab7e3d258e532a0
+      internalID: -1613770719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_312
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63fb3993338a9f46b47023f1599b463
+      internalID: -1636379552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_313
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda8c882eb2ed84ea7f0176046d72fe
+      internalID: 850736767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_314
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d407c214c0df429e15938123c333d
+      internalID: 1029156433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_315
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80013ba0d81f83a46a710cb89562f491
+      internalID: 86603266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_316
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3f115a312ca36499b05d2ebdf0ee29
+      internalID: -642300821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_317
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb307496fb16b34458d200a1da2ebfe6
+      internalID: 408805420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_318
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93e887ccfba8b246a24c0bbbbd46fd6
+      internalID: -2002905409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_319
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6c4807d52e97b4eb37799c62c75d46
+      internalID: 21245419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_320
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b4eb1b2f7d87d4fb1cc0ca03cf7ef5
+      internalID: -939620712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_321
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d43d4aeabe1b74a99401277a942ed6
+      internalID: -260834009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_322
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557b150bd9293694189ca44b4a96df01
+      internalID: 1754771869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_323
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f566f69bd151f4099be228c82368c1
+      internalID: 1675249208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_324
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb200b6e651604346bf231b231e211c8
+      internalID: 406662109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_325
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cdc630432ba094f98d3eb7f0e4c020
+      internalID: -1774639395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_326
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caa46f1481a7e04c91b3dd4e5d98ec5
+      internalID: -1425485364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_327
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2137bac18efd5ae4e800ee484eb8ad46
+      internalID: -791262624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_328
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0e2915c2bed414bbd3360ebe9e3b2e
+      internalID: 195488073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_329
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5652511cb4cd34448b7d8f182aeb0716
+      internalID: 661681456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_330
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c18563917e05bc4d914ea7c1cffee28
+      internalID: 1693420828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_331
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe13a601634673478c1b00100dddacd
+      internalID: -968330487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_332
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719c3ac3d83e31b4a95bfe072a39e6e5
+      internalID: -1471357882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_333
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ce33d775ee45842aa812c7add741bc
+      internalID: 532813731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_334
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a387c82e141f4daa937fd8e2f3c79
+      internalID: 1990485828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_335
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5756524a17f254db7e27f5f1ab3f51
+      internalID: 1153075465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_336
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebdd4b5d9e16ad408293cb7f6128ef2
+      internalID: -67884488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_337
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de7e116500ef8b4d96ad79582bba4b0
+      internalID: 1360450868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_338
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0488c1b382e6ec46b5536473cce8bbb
+      internalID: 536047650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_339
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed750ee574de5942a233b3cdf3d1a98
+      internalID: 1006340842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_340
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1ebdc0dafdf344899a9431fdcd39cb
+      internalID: -1060380529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_341
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85744f4dd5aece24a97f118a3de9c8d2
+      internalID: 691033324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_342
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27851ac2a7e0dcc41be2b586e0cdad90
+      internalID: 246753475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_343
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da124e85cbfbe9439a18636134e0b76
+      internalID: -775483856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_344
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad47745f8649814381f742d96990f77
+      internalID: -584547575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_345
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651a48c8134c4c74b89ce22abc9caf5a
+      internalID: 1613611587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_346
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0741925555b61784bb009cec25996668
+      internalID: -943077760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_347
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78637557bbea7b14aaf120b753b15207
+      internalID: -430669961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_348
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88f91ce3fdf4d4b99c79ed97c1c9e7
+      internalID: 1594307034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_349
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bfbab07c54ad04b8af65d5774d1430
+      internalID: 1539994825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_350
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3371e7b76f83ce4ca1fc6d5c1be3fd0
+      internalID: -179110139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_351
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a577d8a80264aa54680016e57fd0c8e9
+      internalID: -1096769301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_352
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35087d390359b7242919a4f4e035ee23
+      internalID: -1828725317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_353
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305a847bd8421d34dacb88990dcc908f
+      internalID: -688739565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_354
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7bfa77c6cb4734e8cd691fc725798d
+      internalID: 2002461736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_355
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aee34000ce2ea49bf19b086c315a5b
+      internalID: 698314848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_356
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04417c452af9a924495144f6d4542f24
+      internalID: 586169691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_357
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65ba67b36dfde6419ea16fe404df8ff
+      internalID: 523803821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_358
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0bef66820f12a4984ef8d33bb70928
+      internalID: 762260365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_359
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c983ac7ef0573341819c39f1ab452d1
+      internalID: 1371062492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_360
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70bc1215c9c4ca4ab6d15491857de0f
+      internalID: 1695639292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_361
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77dd498c6214904cac4b45608039ee0
+      internalID: -1828776932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_362
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b215c3488f04544882fa772610e7b76
+      internalID: 695075910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_363
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f86d4cf394c5ca4b94dec6b1bcf6ff1
+      internalID: 512417627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_364
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87568da569e7343afcd459e65e7012
+      internalID: -1694303976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_365
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30384c0c7e57c9c4393b598a37c801db
+      internalID: 1708954948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_366
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47efc9b382ec5514f97ea12eee5acb92
+      internalID: -2016982135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_367
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efa85ef79eeeb64eb6f7d6019b77522
+      internalID: -929215353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_368
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86f3d72c08a61542ac90e37915b775b
+      internalID: 1010191358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Effect and Bullet 16x16_369
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e224b384824773458a40ec6dc73ec1d
+      internalID: -1203216496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d5d6fa52e11940a4196606a2fe1d2ca7
     internalID: 0
     vertices: []
     indices: 
@@ -6858,7 +9058,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Water Effect and Bullet 16x16_0: -6862314927755531458
       Water Effect and Bullet 16x16_1: -8572801352851687021
@@ -7051,16 +9253,116 @@ TextureImporter:
       Water Effect and Bullet 16x16_268: 1343070444039608545
       Water Effect and Bullet 16x16_269: 6076997099010117679
       Water Effect and Bullet 16x16_27: -895151902469242637
+      Water Effect and Bullet 16x16_270: 728604087
+      Water Effect and Bullet 16x16_271: -1026103841
+      Water Effect and Bullet 16x16_272: -472435145
+      Water Effect and Bullet 16x16_273: 611393274
+      Water Effect and Bullet 16x16_274: 1959926354
+      Water Effect and Bullet 16x16_275: 1058562432
+      Water Effect and Bullet 16x16_276: -1928151543
+      Water Effect and Bullet 16x16_277: 226330929
+      Water Effect and Bullet 16x16_278: 1901560266
+      Water Effect and Bullet 16x16_279: 369175839
       Water Effect and Bullet 16x16_28: 3776355460928460836
+      Water Effect and Bullet 16x16_280: -1947895157
+      Water Effect and Bullet 16x16_281: -1983891909
+      Water Effect and Bullet 16x16_282: -547420607
+      Water Effect and Bullet 16x16_283: -985517242
+      Water Effect and Bullet 16x16_284: -2051709301
+      Water Effect and Bullet 16x16_285: -995537703
+      Water Effect and Bullet 16x16_286: -384953299
+      Water Effect and Bullet 16x16_287: 432317473
+      Water Effect and Bullet 16x16_288: -158585477
+      Water Effect and Bullet 16x16_289: -1408875174
       Water Effect and Bullet 16x16_29: 7022361474153357261
+      Water Effect and Bullet 16x16_290: 1423391598
+      Water Effect and Bullet 16x16_291: -120223215
+      Water Effect and Bullet 16x16_292: 1401395386
+      Water Effect and Bullet 16x16_293: -844420268
+      Water Effect and Bullet 16x16_294: -1712571099
+      Water Effect and Bullet 16x16_295: 700547947
+      Water Effect and Bullet 16x16_296: 1345474392
+      Water Effect and Bullet 16x16_297: 106467204
+      Water Effect and Bullet 16x16_298: -786473012
+      Water Effect and Bullet 16x16_299: -1044880102
       Water Effect and Bullet 16x16_3: -6661554314947647086
       Water Effect and Bullet 16x16_30: -8340872119184048776
+      Water Effect and Bullet 16x16_300: 860261754
+      Water Effect and Bullet 16x16_301: -37617888
+      Water Effect and Bullet 16x16_302: 45601061
+      Water Effect and Bullet 16x16_303: 260891218
+      Water Effect and Bullet 16x16_304: -1415087236
+      Water Effect and Bullet 16x16_305: -1899198384
+      Water Effect and Bullet 16x16_306: 477069951
+      Water Effect and Bullet 16x16_307: -1359667977
+      Water Effect and Bullet 16x16_308: -9740062
+      Water Effect and Bullet 16x16_309: -1630174771
       Water Effect and Bullet 16x16_31: 321754793885945834
+      Water Effect and Bullet 16x16_310: 417095165
+      Water Effect and Bullet 16x16_311: -1613770719
+      Water Effect and Bullet 16x16_312: -1636379552
+      Water Effect and Bullet 16x16_313: 850736767
+      Water Effect and Bullet 16x16_314: 1029156433
+      Water Effect and Bullet 16x16_315: 86603266
+      Water Effect and Bullet 16x16_316: -642300821
+      Water Effect and Bullet 16x16_317: 408805420
+      Water Effect and Bullet 16x16_318: -2002905409
+      Water Effect and Bullet 16x16_319: 21245419
       Water Effect and Bullet 16x16_32: 2083553278074631622
+      Water Effect and Bullet 16x16_320: -939620712
+      Water Effect and Bullet 16x16_321: -260834009
+      Water Effect and Bullet 16x16_322: 1754771869
+      Water Effect and Bullet 16x16_323: 1675249208
+      Water Effect and Bullet 16x16_324: 406662109
+      Water Effect and Bullet 16x16_325: -1774639395
+      Water Effect and Bullet 16x16_326: -1425485364
+      Water Effect and Bullet 16x16_327: -791262624
+      Water Effect and Bullet 16x16_328: 195488073
+      Water Effect and Bullet 16x16_329: 661681456
       Water Effect and Bullet 16x16_33: -5028492084380443351
+      Water Effect and Bullet 16x16_330: 1693420828
+      Water Effect and Bullet 16x16_331: -968330487
+      Water Effect and Bullet 16x16_332: -1471357882
+      Water Effect and Bullet 16x16_333: 532813731
+      Water Effect and Bullet 16x16_334: 1990485828
+      Water Effect and Bullet 16x16_335: 1153075465
+      Water Effect and Bullet 16x16_336: -67884488
+      Water Effect and Bullet 16x16_337: 1360450868
+      Water Effect and Bullet 16x16_338: 536047650
+      Water Effect and Bullet 16x16_339: 1006340842
       Water Effect and Bullet 16x16_34: -627489169226168507
+      Water Effect and Bullet 16x16_340: -1060380529
+      Water Effect and Bullet 16x16_341: 691033324
+      Water Effect and Bullet 16x16_342: 246753475
+      Water Effect and Bullet 16x16_343: -775483856
+      Water Effect and Bullet 16x16_344: -584547575
+      Water Effect and Bullet 16x16_345: 1613611587
+      Water Effect and Bullet 16x16_346: -943077760
+      Water Effect and Bullet 16x16_347: -430669961
+      Water Effect and Bullet 16x16_348: 1594307034
+      Water Effect and Bullet 16x16_349: 1539994825
       Water Effect and Bullet 16x16_35: -3358924112956858236
+      Water Effect and Bullet 16x16_350: -179110139
+      Water Effect and Bullet 16x16_351: -1096769301
+      Water Effect and Bullet 16x16_352: -1828725317
+      Water Effect and Bullet 16x16_353: -688739565
+      Water Effect and Bullet 16x16_354: 2002461736
+      Water Effect and Bullet 16x16_355: 698314848
+      Water Effect and Bullet 16x16_356: 586169691
+      Water Effect and Bullet 16x16_357: 523803821
+      Water Effect and Bullet 16x16_358: 762260365
+      Water Effect and Bullet 16x16_359: 1371062492
       Water Effect and Bullet 16x16_36: -5619429237225400456
+      Water Effect and Bullet 16x16_360: 1695639292
+      Water Effect and Bullet 16x16_361: -1828776932
+      Water Effect and Bullet 16x16_362: 695075910
+      Water Effect and Bullet 16x16_363: 512417627
+      Water Effect and Bullet 16x16_364: -1694303976
+      Water Effect and Bullet 16x16_365: 1708954948
+      Water Effect and Bullet 16x16_366: -2016982135
+      Water Effect and Bullet 16x16_367: -929215353
+      Water Effect and Bullet 16x16_368: 1010191358
+      Water Effect and Bullet 16x16_369: -1203216496
       Water Effect and Bullet 16x16_37: -6494616082509757364
       Water Effect and Bullet 16x16_38: -5672380733964199088
       Water Effect and Bullet 16x16_39: -3261808273683534893
