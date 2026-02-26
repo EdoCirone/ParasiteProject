@@ -1,7 +1,8 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+using UnityEngine.UI;
 
 
 public class MainMenuManager : MonoBehaviour
@@ -10,7 +11,11 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject _creditsPanel;
     [SerializeField] private GameObject _settingsPanel;
     [SerializeField] private GameObject _scoreBoardPanel;
-    [SerializeField] private RectTransform _mainMenuPanel;
+
+    [Header("UI Anim Elements")]
+    [SerializeField] private RectTransform _title;
+    [SerializeField] private RectTransform _buttonsLayout;
+    [SerializeField] private List<RectTransform> _buttons;
 
     [Header("Animation Settings")]
     [SerializeField] private float _mainFadeDuration = 0.5f;
@@ -25,6 +30,8 @@ public class MainMenuManager : MonoBehaviour
     private bool _isCreditsOpen = false;
     private bool _isScoreBoardOpen = false;
 
+    //Mi serve un dizionario per memorizzare le posizioni finali dei bottoni, così da poter animare correttamente perchè il layout mi cambia le posizioni in Start e anima tutto sullo stesso punto
+    private readonly Dictionary<RectTransform, Vector2> _cachedPos = new();
     void Start()
     {
         Time.timeScale = 1f;
@@ -33,16 +40,71 @@ public class MainMenuManager : MonoBehaviour
         if (_settingsPanel != null) _settingsPanel.SetActive(false);
         if (_scoreBoardPanel != null) _scoreBoardPanel.SetActive(false);
 
-        if (_mainMenuPanel != null)
+        if (_title != null)
         {
-            _mainMenuPanel.DOKill(); // Ferma eventuali animazioni in corso
-            _mainMenuPanel.localScale = Vector3.zero;
-            _mainMenuPanel.DOScale(Vector3.one, _mainFadeDuration).SetEase(_mainEase);
+            _title.DOKill(); // Ferma eventuali animazioni in corso
+            _title.localScale = Vector3.zero;
+            _title.DOScale(Vector3.one, _mainFadeDuration).SetEase(_mainEase);
         }
+
+        // Forza il layout a calcolare le posizioni dei bottoni prima di animarli, così da avere le posizioni corrette per l'animazione
+        Canvas.ForceUpdateCanvases();
+        if (_buttonsLayout != null)
+            LayoutRebuilder.ForceRebuildLayoutImmediate(_buttonsLayout);
+
+        //  Cache posizioni finali 
+        _cachedPos.Clear();
+        foreach (var rt in _buttons)
+        {
+            if (rt != null)
+                _cachedPos[rt] = rt.anchoredPosition;
+        }
+
+        AnimButtons();
+
     }
 
     public void OnNewGameButton() => GameManager.Instance.StartNewGame();
     public void OnExitButton() => GameManager.Instance.ExitGame();
+
+    public void AnimButtons()
+    {
+        if (_buttons == null || _buttons.Count == 0) return;
+
+        for (int i = 0; i < _buttons.Count; i++)
+        {
+            var rect = _buttons[i];
+            if (rect == null) continue;
+
+            //  posizione calcolata dal layout
+            if (!_cachedPos.TryGetValue(rect, out var endPos))
+                endPos = rect.anchoredPosition;
+
+            rect.DOKill();
+
+            var cg = rect.GetComponent<CanvasGroup>();
+            if (!cg) cg = rect.gameObject.AddComponent<CanvasGroup>();
+
+            cg.DOKill();
+            cg.alpha = 0f;
+            cg.interactable = false;
+            cg.blocksRaycasts = false;
+
+            // Posizione di partenza (20 unità sotto la posizione finale)
+            Vector2 startPos = endPos + new Vector2(0f, -20f);
+            rect.anchoredPosition = startPos;
+
+            float delay = 0.08f * i;
+
+            // Animazione di fade-in con un leggero delay per ogni bottone, e al completamento rende il bottone interattivo
+            cg.DOFade(1f, _mainFadeDuration).SetEase(Ease.OutQuad).SetDelay(delay)
+              .OnComplete(() => { cg.interactable = true; cg.blocksRaycasts = true; });
+
+            // Animazione di movimento con un leggero overshoot (OutBack) per un effetto più dinamico
+            rect.DOAnchorPos(endPos, _mainFadeDuration).SetEase(Ease.OutBack).SetDelay(delay);
+        }
+    }
+
 
     public void OnCreditsButton()
     {
@@ -60,8 +122,8 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnScoreBoardButton()
     {
-        CloseSubMenu(_creditsPanel, ref _isCreditsOpen); // Chiude i credits se aperti
-        CloseSubMenu(_settingsPanel, ref _isSettingsOpen); // Chiude le settings se aperte
+        CloseSubMenu(_creditsPanel, ref _isCreditsOpen);
+        CloseSubMenu(_settingsPanel, ref _isSettingsOpen);
         OpenSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
     }
 

@@ -75,15 +75,15 @@ MonoBehaviour:
     User Interface MEGA PACK \u2014 ToffeeCraft (itch.io)\n\nMain Menu Image\nImage
     by Freepik\nhttps://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9ec67d9693c3ce948bc2421eade5e34c, type: 2}
+  m_sharedMaterial: {fileID: -7382307698358052067, guid: 9ec67d9693c3ce948bc2421eade5e34c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284177243
-  m_fontColor: {r: 0.35686275, g: 0.35686275, b: 0.35686275, a: 1}
+    rgba: 4285756275
+  m_fontColor: {r: 0.45, g: 0.45, b: 0.45, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -214,8 +214,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2491128980637532833, guid: a7af750052f7dd34bbf2eb4ead8e18d5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -454,10 +454,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2122538689432023491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -141.20657}
-  m_SizeDelta: {x: 68.303, y: 68.303}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0.2016496}
+  m_AnchoredPosition: {x: -0.000011444092, y: 14.4339905}
+  m_SizeDelta: {x: 46.2947, y: -41.3216}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3142170346023942712
 CanvasRenderer:
@@ -565,10 +565,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2122538689432023491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.85530156}
+  m_AnchorMin: {x: 0, y: 0.81775385}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.39401245}
-  m_SizeDelta: {x: -142, y: -10.400002}
+  m_AnchoredPosition: {x: 0, y: 15.596005}
+  m_SizeDelta: {x: -226.7939, y: -47.2414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2528946472946022593
 CanvasRenderer:
@@ -600,8 +600,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8beb6afb48170494a826df9cc373d16d, type: 2}
+  m_sharedMaterial: {fileID: 469498262905218930, guid: 8beb6afb48170494a826df9cc373d16d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -625,7 +625,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 21.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4665686187047379928, guid: 3ae2b544a35257c47b1f6acca81d6a41, type: 3}
+  m_Sprite: {fileID: -6510222591017935772, guid: 26c7323ded35d2147ac5de9f601a9dc8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -976,8 +976,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1326769467736128210}
   m_HandleRect: {fileID: 6488131350170526713}
   m_Direction: 2
-  m_Value: 1.0000004
-  m_Size: 0.11120594
+  m_Value: 1.0000005
+  m_Size: 0.27064225
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1018,7 +1018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -28.361801, y: -29.514404}
+  m_AnchoredPosition: {x: -65.287445, y: -53.846252}
   m_SizeDelta: {x: 38.3613, y: 37.0286}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5576889966055255755
@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -5110282528694087207, guid: a7af750052f7dd34bbf2eb4ead8e18d5, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.5
 --- !u!114 &5113851150496103716
 MonoBehaviour:
   m_ObjectHideFlags: 0
