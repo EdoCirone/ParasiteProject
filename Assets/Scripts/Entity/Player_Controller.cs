@@ -12,6 +12,7 @@ public class Player_Controller : Entity
 
     [Header("Audio")]
     [SerializeField] private AudioEventData parasitePossessionAudioEventData;
+    [SerializeField] private AudioEventData onDashAudioEventData;
 
     private bool _isDeath;
     private Coroutine _hpRoutine;
@@ -38,7 +39,11 @@ public class Player_Controller : Entity
         X = Input.GetAxis("Horizontal");
         Y = Input.GetAxis("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.Space)) TakeControllBody();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TryPlayAudio(onDashAudioEventData, transform.position);
+            TakeControllBody();
+        }
     }
 
     private void TakeControllBody()
@@ -86,7 +91,6 @@ public class Player_Controller : Entity
 
         if (hp <= 0)
         {
-
             hp = 0;
             _isDeath = true;
 

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class MainMenuManager : MonoBehaviour
 {
     [Header("Panels")]
@@ -26,11 +25,14 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private Ease _subMenuEase = Ease.OutBack;
     [SerializeField] private Ease _subMenuCloseEase = Ease.OutCubic;
 
-    private bool _isSettingsOpen = false;
-    private bool _isCreditsOpen = false;
-    private bool _isScoreBoardOpen = false;
+    [Header("Audio")]
+    [SerializeField] private AudioEventData onClickAudioEventData;
 
-    //Mi serve un dizionario per memorizzare le posizioni finali dei bottoni, così da poter animare correttamente perchè il layout mi cambia le posizioni in Start e anima tutto sullo stesso punto
+    private bool _isSettingsOpen;
+    private bool _isCreditsOpen;
+    private bool _isScoreBoardOpen;
+
+    //Mi serve un dizionario per memorizzare le posizioni finali dei bottoni, cosï¿½ da poter animare correttamente perchï¿½ il layout mi cambia le posizioni in Start e anima tutto sullo stesso punto
     private readonly Dictionary<RectTransform, Vector2> _cachedPos = new();
     void Start()
     {
@@ -47,7 +49,7 @@ public class MainMenuManager : MonoBehaviour
             _title.DOScale(Vector3.one, _mainFadeDuration).SetEase(_mainEase);
         }
 
-        // Forza il layout a calcolare le posizioni dei bottoni prima di animarli, così da avere le posizioni corrette per l'animazione
+        // Forza il layout a calcolare le posizioni dei bottoni prima di animarli, cosï¿½ da avere le posizioni corrette per l'animazione
         Canvas.ForceUpdateCanvases();
         if (_buttonsLayout != null)
             LayoutRebuilder.ForceRebuildLayoutImmediate(_buttonsLayout);
@@ -64,8 +66,17 @@ public class MainMenuManager : MonoBehaviour
 
     }
 
-    public void OnNewGameButton() => GameManager.Instance.StartNewGame();
-    public void OnExitButton() => GameManager.Instance.ExitGame();
+    public void OnNewGameButton()
+    {
+        PlayClickAudio();
+        GameManager.Instance.StartNewGame();
+    }
+
+    public void OnExitButton()
+    {
+        PlayClickAudio();
+        GameManager.Instance.ExitGame();
+    }
 
     public void AnimButtons()
     {
@@ -90,7 +101,7 @@ public class MainMenuManager : MonoBehaviour
             cg.interactable = false;
             cg.blocksRaycasts = false;
 
-            // Posizione di partenza (20 unità sotto la posizione finale)
+            // Posizione di partenza (20 unitï¿½ sotto la posizione finale)
             Vector2 startPos = endPos + new Vector2(0f, -20f);
             rect.anchoredPosition = startPos;
 
@@ -100,7 +111,7 @@ public class MainMenuManager : MonoBehaviour
             cg.DOFade(1f, _mainFadeDuration).SetEase(Ease.OutQuad).SetDelay(delay)
               .OnComplete(() => { cg.interactable = true; cg.blocksRaycasts = true; });
 
-            // Animazione di movimento con un leggero overshoot (OutBack) per un effetto più dinamico
+            // Animazione di movimento con un leggero overshoot (OutBack) per un effetto piï¿½ dinamico
             rect.DOAnchorPos(endPos, _mainFadeDuration).SetEase(Ease.OutBack).SetDelay(delay);
         }
     }
@@ -108,6 +119,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnCreditsButton()
     {
+        PlayClickAudio();
         CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
         CloseSubMenu(_settingsPanel, ref _isSettingsOpen);
         OpenSubMenu(_creditsPanel, ref _isCreditsOpen);
@@ -115,6 +127,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void OnSettingsButton()
     {
+        PlayClickAudio();
         CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
         CloseSubMenu(_creditsPanel, ref _isCreditsOpen);
         OpenSubMenu(_settingsPanel, ref _isSettingsOpen);
@@ -127,43 +140,65 @@ public class MainMenuManager : MonoBehaviour
         OpenSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
     }
 
+    public void OnBackFromCredits()
+    {
+        PlayClickAudio();
+        CloseSubMenu(_creditsPanel, ref _isCreditsOpen);
+    }
+
+    public void OnBackFromSettings()
+    {
+        PlayClickAudio();
+        CloseSubMenu(_settingsPanel, ref _isSettingsOpen);
+    }
+
+    public void OnBackFromScoreBoard()
+    {
+        PlayClickAudio();
+        CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
+    }
+
     private void OpenSubMenu(GameObject panel, ref bool isOpen)
     {
-        if (panel == null) return;
-        if (isOpen) return; // Evita di aprire più volte le settings
+        if (panel == null || isOpen) return;
 
         panel.SetActive(true);
         RectTransform rect = panel.GetComponent<RectTransform>();
         if (rect != null)
         {
-            rect.DOKill(); // Ferma eventuali animazioni in corso
+            rect.DOKill();
             rect.localScale = Vector3.zero;
             rect.DOScale(Vector3.one, _subFadeDuration).SetEase(_subMenuEase);
         }
+
         isOpen = true;
     }
 
     private void CloseSubMenu(GameObject panel, ref bool isOpen)
     {
-        if (panel == null) return;
-        if (!isOpen) return; // Evita di chiudere se non è aperto
+        if (panel == null || !isOpen) return;
 
         RectTransform rect = panel.GetComponent<RectTransform>();
         if (rect != null)
         {
-            rect.DOKill(); // Ferma eventuali animazioni in corso
-            rect.DOScale(Vector3.zero, _subFadeDuration).SetEase(_subMenuCloseEase).OnComplete(() =>
-            {
-                panel.SetActive(false);
-            });
+            rect.DOKill();
+            rect.DOScale(Vector3.zero, _subFadeDuration).SetEase(_subMenuCloseEase).OnComplete(() => panel.SetActive(false));
         }
         else
-            panel.SetActive(false);// Chiude il pannello specificato
-        isOpen = false;
+        {
+            panel.SetActive(false);
+        }
 
+        isOpen = false;
     }
 
-    public void OnBackFromCredits() => CloseSubMenu(_creditsPanel, ref _isCreditsOpen);
-    public void OnBackFromSettings() => CloseSubMenu(_settingsPanel, ref _isSettingsOpen);
-    public void OnBackFromScoreBoard() => CloseSubMenu(_scoreBoardPanel, ref _isScoreBoardOpen);
+    private void PlayClickAudio()
+    {
+        if (!onClickAudioEventData) return;
+
+        AudioManager audioManager = AudioManager.Instance;
+        if (!audioManager) return;
+
+        audioManager.PlaySound(onClickAudioEventData, transform.position);
+    }
 }

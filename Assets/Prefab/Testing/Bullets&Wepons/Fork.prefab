@@ -284,11 +284,14 @@ MonoBehaviour:
   - AttackPosition: {x: 0, y: 0, z: 0}
     AttackRotation: {x: 0, y: 0, z: 0}
     AttackDuration: 0.1
-  upAngle: -100
-  downAngle: 80
-  windUpTime: 0.15
-  swingTime: 0.08
-  returnTime: 0.12
+  onAttackAudioEventData: {fileID: 11400000, guid: 629f65ab9e27146418006b38e69f0530, type: 2}
+  onHitAudioEventData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
+  onReloadAudioEventData: {fileID: 0}
+  onHitMinInterval: 0.05
+  layerEnemey:
+    serializedVersion: 2
+    m_Bits: 0
+  damage: 0
 --- !u!61 &5110768858448792898
 BoxCollider2D:
   m_ObjectHideFlags: 0
