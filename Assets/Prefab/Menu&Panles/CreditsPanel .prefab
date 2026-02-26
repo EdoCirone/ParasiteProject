@@ -32,11 +32,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5136406310835858340}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 466.509}
-  m_Pivot: {x: 0.5, y: 1}
+  m_SizeDelta: {x: -25.2589, y: -71.401}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9108742512570745894
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -65,11 +65,54 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Edoardo Cirone: \nPM, GameDes, UI, LvlDesign, BootScene Logic\n\nXXXXXXXXXXXXXX:\nCore
-    Gameplay Developer, \nSO master\n\nSalvatore Guglielmini\nAudio Wizard\n\nRenato
-    Rumieri\nAnimation Engeneering\n\nExternal Assets\n\n\nTilemap & Props\nDamp
-    Dungeons by Arex_V\n\n\nIcons\nGame-icons.net\n\n\nMain Menu Image\nImage by
-    Freepik\nhttps://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm"
+  m_text: 'A Middle Finger Entertainment Production
+
+
+    Edoardo Cirone
+
+    Project
+    Lead, Game Design, UI/UX
+
+    Boot Flow (Boot Scene), Level Design, Lighting
+
+
+    Mike
+    [COGNOME]
+
+    Gameplay Programming, Systems (ScriptableObjects)
+
+
+    Salvatore
+    Guglielmini
+
+    Audio, Version Control (GitHub)
+
+
+    Renato Rumieri
+
+    Animation
+
+
+    External
+    Assets
+
+
+    Tilemap & Props
+
+    Damp Dungeons by Arex_V
+
+
+    Icons
+
+    Game-icons.net
+
+
+    Main
+    Menu Image
+
+    Image by Freepik
+
+    https://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -96,7 +139,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 19.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -174,6 +217,7 @@ RectTransform:
   - {fileID: 6007205280951565535}
   - {fileID: 6014627410906384853}
   - {fileID: 8626622438319229697}
+  - {fileID: 6989653814991024888}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -256,8 +300,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.85530156}
-  m_AnchoredPosition: {x: 5, y: 5.5}
-  m_SizeDelta: {x: -42, y: -41}
+  m_AnchoredPosition: {x: 5, y: 33.926395}
+  m_SizeDelta: {x: -42, y: -97.853}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7986718689202144569
 CanvasRenderer:
@@ -417,6 +461,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Mask
   m_ShowMaskGraphic: 0
+--- !u!1 &5961107449099932624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6989653814991024888}
+  - component: {fileID: 3142170346023942712}
+  - component: {fileID: 4759684308325537954}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6989653814991024888
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5961107449099932624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2122538689432023491}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -140.7536}
+  m_SizeDelta: {x: 68.303, y: 68.303}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3142170346023942712
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5961107449099932624}
+  m_CullTransparentMesh: 1
+--- !u!114 &4759684308325537954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5961107449099932624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.36078432, g: 0.36078432, b: 0.36078432, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 3085476246587227759, guid: 5cb66bc5c2b41b440b9ddc57dc354d65, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6406971692741789600
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,8 +569,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 0}
-  m_SizeDelta: {x: 0, y: 1370.96}
+  m_AnchoredPosition: {x: -0.000015258789, y: -0.0002746582}
+  m_SizeDelta: {x: 0, y: 801.227}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &6848985443363547954
 GameObject:
@@ -487,7 +606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.85530156}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.3940277}
+  m_AnchoredPosition: {x: 0, y: 0.39401245}
   m_SizeDelta: {x: -142, y: -10.400002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2528946472946022593
@@ -545,7 +664,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.4
+  m_fontSize: 38.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -896,8 +1015,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1326769467736128210}
   m_HandleRect: {fileID: 6488131350170526713}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.200066
+  m_Value: 1.0000005
+  m_Size: 0.27107474
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
