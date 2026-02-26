@@ -18,6 +18,9 @@ public class InGameMenuManager : MonoBehaviour
     private RectTransform _exitConfirmRect;
     private RectTransform _gameOverRect;
 
+    [Header("Audio")]
+    [SerializeField] private AudioEventData onClickAudioEventData;
+
     private bool _isSettingsOpen = false;
     private bool _isExitConfirmOpen = false;
     private bool _isGameOverOpen = false;
@@ -60,12 +63,14 @@ public class InGameMenuManager : MonoBehaviour
 
     public void OnSettingsButton()
     {
+        PlayClickAudio();
         CloseAllPanels();
         OpenSubMenu(_optionMenu, _optionMenuRect, ref _isSettingsOpen);
     }
 
     public void OnExitButton()
     {
+        PlayClickAudio();
         CloseAllPanels();
         OpenSubMenu(_exitConfirmPanel, _exitConfirmRect, ref _isExitConfirmOpen);
     }
@@ -109,7 +114,20 @@ public class InGameMenuManager : MonoBehaviour
     }
     private void HandlePause()
     {
-        Time.timeScale = (_isExitConfirmOpen || _isSettingsOpen || _isGameOverOpen) ? 0f : 1f;// Pausa il gioco se un menu è aperto, altrimenti lo riprende
+        PlayClickAudio();
+        PlayClickAudio();
+
+
+    private void PlayClickAudio()
+    {
+        if (!onClickAudioEventData) return;
+
+        AudioManager audioManager = AudioManager.Instance;
+        if (!audioManager) return;
+
+        audioManager.PlaySound(onClickAudioEventData, transform.position);
+    }
+        Time.timeScale = (_isExitConfirmOpen || _isSettingsOpen || _isGameOverOpen) ? 0f : 1f;// Pausa il gioco se un menu Ã¨ aperto, altrimenti lo riprende
     }
 
     public void OnMainMenuButton()
