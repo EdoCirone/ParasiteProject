@@ -5183,6 +5183,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2122538689432023491, guid: 18b6281a85f876149a416c2a46324479, type: 3}
   m_PrefabInstance: {fileID: 6740429079602230689}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &1059498068 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2536883657797897084, guid: 48a80dd5538f93e48b91c93622056d7a, type: 3}
+  m_PrefabInstance: {fileID: 8373084356615585579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1193093099
 GameObject:
   m_ObjectHideFlags: 0
@@ -5759,7 +5764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3712671150195023126, guid: 18b6281a85f876149a416c2a46324479, type: 3}
       propertyPath: m_fontSize
-      value: 20.9
+      value: 21.1
       objectReference: {fileID: 0}
     - target: {fileID: 5113851150496103716, guid: 18b6281a85f876149a416c2a46324479, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5935,6 +5940,10 @@ PrefabInstance:
       propertyPath: _creditsPanel
       value: 
       objectReference: {fileID: 871592461}
+    - target: {fileID: 711554810735521866, guid: 99915592459c60f4fbc25b2af9c49726, type: 3}
+      propertyPath: _buttonsLayout
+      value: 
+      objectReference: {fileID: 1059498068}
     - target: {fileID: 711554810735521866, guid: 99915592459c60f4fbc25b2af9c49726, type: 3}
       propertyPath: _mainMenuPanel
       value: 
