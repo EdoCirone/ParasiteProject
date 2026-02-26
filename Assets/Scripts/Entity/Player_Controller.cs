@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class Player_Controller : Entity
 {
@@ -12,9 +13,24 @@ public class Player_Controller : Entity
     [Header("Audio")]
     [SerializeField] private AudioEventData parasitePossessionAudioEventData;
 
+    private bool _isDeath;
+    private Coroutine _hpRoutine;
+    private UnityEvent _playerDeath = new UnityEvent();
+    private InGameMenuManager _inGameMenuManager;
+
+
     public override void Awake()
     {
         base.Awake();
+        _inGameMenuManager = FindFirstObjectByType<InGameMenuManager>();
+
+        if (_inGameMenuManager == null)
+        {
+            Debug.LogError("Player_Controller: InGameMenuManager not found in the scene. Please ensure there is an InGameMenuManager in the scene.");
+            return;
+        }
+
+        _playerDeath.AddListener(_inGameMenuManager.OnPlayerDeath);
     }
 
     private void Update()
@@ -57,21 +73,38 @@ public class Player_Controller : Entity
     public override void SetEntity()
     {
         base.SetEntity();
-        StartCoroutine(DecreseHpRoutine());
+        _isDeath = false; //Resetto la morte per sicurezza
+        if (_hpRoutine != null) StopCoroutine(_hpRoutine); //Evito doppie coroutine
+        _hpRoutine = StartCoroutine(DecreseHpRoutine());
     }
 
     public override void Damage(float damage)
     {
+        if (_isDeath) return;
+
         base.Damage(damage);
 
-        if (hp < 0)
+        if (hp <= 0)
         {
-            hp = 0;
-            PlayDeathAudio();
 
-            if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            hp = 0;
+            _isDeath = true;
+
+            if (_hpRoutine != null)
+            {
+                StopCoroutine(_hpRoutine);
+                _hpRoutine = null;
+            }
+
+            PlayDeathAudio();
+            _playerDeath?.Invoke();
+
+            //if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
         }
+
     }
+
 
     private IEnumerator DecreseHpRoutine()
     {

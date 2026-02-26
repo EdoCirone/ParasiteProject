@@ -7,6 +7,7 @@ public class InGameMenuManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private GameObject _optionMenu;
     [SerializeField] private GameObject _exitConfirmPanel;
+    [SerializeField] private GameObject _gameOverPanel;
 
     [Header("Settings")]
     [SerializeField] private float _subFadeDuration = 0.5f;
@@ -15,22 +16,25 @@ public class InGameMenuManager : MonoBehaviour
 
     private RectTransform _optionMenuRect;
     private RectTransform _exitConfirmRect;
+    private RectTransform _gameOverRect;
 
     private bool _isSettingsOpen = false;
     private bool _isExitConfirmOpen = false;
+    private bool _isGameOverOpen = false;
 
     private void Start()
     {
-        if (_optionMenu == null || _exitConfirmPanel == null)
+        if (_optionMenu == null || _exitConfirmPanel == null || _gameOverPanel == null)
         {
-            Debug.LogError("InGameMenuManager: Missing references to option menu or exit confirm panel.");
+            Debug.LogError("InGameMenuManager: Missing references to option menu or exit confirm or GameOver panel.");
             return;
         }
 
         _optionMenuRect = _optionMenu.GetComponent<RectTransform>();
         _exitConfirmRect = _exitConfirmPanel.GetComponent<RectTransform>();
+        _gameOverRect = _gameOverPanel.GetComponent<RectTransform>();
 
-        if (_optionMenuRect == null || _exitConfirmRect == null)
+        if (_optionMenuRect == null || _exitConfirmRect == null || _gameOverRect == null)
         {
             Debug.LogError("InGameMenuManager: Missing RectTransform components on option menu or exit confirm panel.");
             return;
@@ -42,18 +46,27 @@ public class InGameMenuManager : MonoBehaviour
         _exitConfirmRect.localScale = Vector3.zero; // Inizialmente nascosto e scalato a zero per l'animazione
         _exitConfirmPanel.SetActive(false);
 
+        _gameOverRect.localScale = Vector3.zero; // Inizialmente nascosto e scalato a zero per l'animazione
+        _gameOverRect.gameObject.SetActive(false);
+
         HandlePause();
+    }
+
+    public void OnPlayerDeath()
+    {
+        CloseAllPanels();
+        OpenSubMenu(_gameOverPanel, _gameOverRect, ref _isGameOverOpen);
     }
 
     public void OnSettingsButton()
     {
-        CloseSubMenu(_exitConfirmPanel, _exitConfirmRect, ref _isExitConfirmOpen);
+        CloseAllPanels();
         OpenSubMenu(_optionMenu, _optionMenuRect, ref _isSettingsOpen);
     }
 
     public void OnExitButton()
     {
-        CloseSubMenu(_optionMenu, _optionMenuRect, ref _isSettingsOpen);
+        CloseAllPanels();
         OpenSubMenu(_exitConfirmPanel, _exitConfirmRect, ref _isExitConfirmOpen);
     }
 
@@ -61,6 +74,7 @@ public class InGameMenuManager : MonoBehaviour
     {
         CloseSubMenu(_optionMenu, _optionMenuRect, ref _isSettingsOpen);
         CloseSubMenu(_exitConfirmPanel, _exitConfirmRect, ref _isExitConfirmOpen);
+        CloseSubMenu(_gameOverPanel, _gameOverRect, ref _isGameOverOpen);
         HandlePause();
     }
 
@@ -95,7 +109,7 @@ public class InGameMenuManager : MonoBehaviour
     }
     private void HandlePause()
     {
-        Time.timeScale = (_isExitConfirmOpen || _isSettingsOpen) ? 0f : 1f;// Pausa il gioco se un menu è aperto, altrimenti lo riprende
+        Time.timeScale = (_isExitConfirmOpen || _isSettingsOpen || _isGameOverOpen) ? 0f : 1f;// Pausa il gioco se un menu è aperto, altrimenti lo riprende
     }
 
     public void OnMainMenuButton()
@@ -105,4 +119,9 @@ public class InGameMenuManager : MonoBehaviour
 
     }
 
+    public void OnRestartButton()
+    {
+        Time.timeScale = 1f;
+        GameManager.Instance.StartNewGame();
+    }
 }
