@@ -49,6 +49,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BaseBullet
   speed: 2
   lifeTime: 5
+  onHitMinInterval: 0.05
+  onHitAudioEventData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
   LayerEnemey:
     serializedVersion: 2
     m_Bits: 0
