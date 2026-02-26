@@ -38,6 +38,10 @@ public sealed class MusicManager : MonoBehaviour
         }
 
         Instance = this;
+        if (transform.parent != null)
+        {
+            transform.SetParent(null);
+        }
         DontDestroyOnLoad(gameObject);
 
         InitializeSources();
