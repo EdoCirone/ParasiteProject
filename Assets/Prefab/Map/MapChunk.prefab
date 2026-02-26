@@ -723,7 +723,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9116757486886019055
 Transform:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ Tilemap:
       - {fileID: -4712007337684372800, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1226991102608204867, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1706704212053624585, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -5, y: -3, z: 0}
@@ -9966,7 +9966,7 @@ Tilemap:
       - {fileID: -552550724, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -1345054283, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -2141217984, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: -2, z: 0}
@@ -9976,7 +9976,7 @@ Tilemap:
       - {fileID: -552550724, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -1345054283, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -2141217984, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: -2, z: 0}
@@ -9986,7 +9986,7 @@ Tilemap:
       - {fileID: -552550724, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -1345054283, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -2141217984, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: -1, z: 0}
@@ -10006,7 +10006,7 @@ Tilemap:
       - {fileID: 479663059, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -198356948, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 983786131, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: -1, z: 0}
@@ -13537,7 +13537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7727939545803166576
 Transform:
   m_ObjectHideFlags: 0
