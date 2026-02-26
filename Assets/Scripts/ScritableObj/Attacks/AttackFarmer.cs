@@ -6,6 +6,8 @@ using static UnityEngine.EventSystems.EventTrigger;
 public class AttackFarmer : AttackBase_SO
 {
     [SerializeField] private BaseSword baseSword;
+    [Header("Audio")]
+    [SerializeField] private AudioEventData swingAudioEventData;
 
     public override void Attack(Transform attackPoint, Entity entity)
     {   
@@ -17,6 +19,10 @@ public class AttackFarmer : AttackBase_SO
         sword.transform.localRotation = Quaternion.Euler(0f, 0f, angle +weaponOffset);
 
         sword.transform.localPosition = Vector3.zero;
+
+        if (swingAudioEventData && AudioManager.Instance)
+            AudioManager.Instance.PlaySound(swingAudioEventData, attackPoint.position);
+
         sword.Attack(attackPoint,entity);
     }
 }

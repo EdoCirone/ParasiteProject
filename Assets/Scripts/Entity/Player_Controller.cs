@@ -9,6 +9,9 @@ public class Player_Controller : Entity
     [SerializeField] private float velocityLossHp = 4f;
     [SerializeField] private float hpLoseOverTime = 10f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioEventData parasitePossessionAudioEventData;
+
     public override void Awake()
     {
         base.Awake();
@@ -46,6 +49,7 @@ public class Player_Controller : Entity
         }
 
         if (!closest) return;
+        TryPlayAudio(parasitePossessionAudioEventData, closest.transform.position);
         entity = closest.Entity_SO;
         SetEntity();
     }
@@ -63,6 +67,7 @@ public class Player_Controller : Entity
         if (hp < 0)
         {
             hp = 0;
+            PlayDeathAudio();
 
             if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
