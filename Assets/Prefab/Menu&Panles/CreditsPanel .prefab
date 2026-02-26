@@ -70,8 +70,10 @@ MonoBehaviour:
     Programming, Systems (ScriptableObjects)\n\nSalvatore Guglielmini\nAudio, Version
     Control (GitHub)\n\nRenato Rumieri\nAnimation\n\nExternal Assets\n\n\nVFX\nEffect
     and FX Pixel Part 14 \u2014 BDragon1727 (itch.io)\nFree Effect and Bullet 16x16
-    \u2014 BDragon1727 (itch.io)\n\nLevel Design / Tileset\nDamp Dungeons by Arex_V
-    (itch.io)\n\nIcons\nGame-icons.net\n\nMain Menu Image\nImage by Freepik\nhttps://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm"
+    \u2014 BDragon1727 (itch.io)\n500 Bullet 24x24 \u2014 BDragon1727 (itch.io)\n\nLevel
+    Design / Tileset\nDamp Dungeons by Arex_V (itch.io)\n\nIcons\nGame-icons.net\n\nUI\nUI
+    User Interface MEGA PACK \u2014 ToffeeCraft (itch.io)\n\nMain Menu Image\nImage
+    by Freepik\nhttps://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -528,7 +530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: -0.0002746582}
+  m_AnchoredPosition: {x: 0, y: -0.0002746582}
   m_SizeDelta: {x: 0, y: 801.227}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &6848985443363547954
@@ -975,7 +977,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6488131350170526713}
   m_Direction: 2
   m_Value: 1.0000004
-  m_Size: 0
+  m_Size: 0.11120594
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
