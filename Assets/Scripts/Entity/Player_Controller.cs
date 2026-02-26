@@ -86,6 +86,8 @@ public class Player_Controller : Entity
 
         if (hp <= 0)
         {
+            hp = 0;
+            PlayDeathAudio();
 
             hp = 0;
             _isDeath = true;

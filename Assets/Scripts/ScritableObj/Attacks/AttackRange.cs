@@ -5,6 +5,7 @@ public class AttackRange : AttackBase_SO
 {
     [SerializeField] private int attackOnSequence = 1;
     [SerializeField] private float timeEachAttack = 0.25f;
+    [SerializeField] private bool canUseY;
     [Header("Audio")]
     [SerializeField] private AudioEventData shotAudioEventData;
 
