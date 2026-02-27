@@ -928,6 +928,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1241124882}
     - target: {fileID: 211548448085835599, guid: 00f5eb6099293e8499c3166317353377, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 211548448085835599, guid: 00f5eb6099293e8499c3166317353377, type: 3}
       propertyPath: mapParent
       value: 
       objectReference: {fileID: 1841226634}

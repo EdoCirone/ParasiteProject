@@ -13,6 +13,8 @@ public class Entity_SO : ScriptableObject
     public float VelocityAttack = 1f;
     public float BoostPlayerVelocityAttack = 1.25f;
 
+    public int Score = 1;
+
     public GameObject Visual;
     public AttackBase_SO Attack;
 }

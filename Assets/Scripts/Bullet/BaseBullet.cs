@@ -60,22 +60,24 @@ public class BaseBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if ((LayerEnemey.value & (1 << other.gameObject.layer)) != 0)
+        LifeSystem e = other.GetComponentInChildren<LifeSystem>();
+
+        if (e)
         {
-            Entity e = other.GetComponentInChildren<Entity>();
-            if (e)
+            if (e.ObjLayer == LayerEnemey)
             {
-                e.Damage(damage);
+                e.Damage(damage, LayerEnemey);
 
                 if (Time.time >= nextOnHitAudioTime)
                 {
                     nextOnHitAudioTime = Time.time + onHitMinInterval;
                     TryPlayAudio(onHitAudioEventData, other.transform.position);
                 }
+
+                if (!pool) pool = GetComponentInChildren<Pool_Obj>();
+                pool.ReturnToPool();
             }
 
-            if (!pool) pool = GetComponentInChildren<Pool_Obj>();
-            pool.ReturnToPool();
         }
     }
 

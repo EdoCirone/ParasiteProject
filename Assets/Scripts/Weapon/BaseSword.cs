@@ -22,8 +22,8 @@ public class BaseSword : MonoBehaviour
     [SerializeField, Min(0f)] private float onHitMinInterval = 0.05f;
 
     [Header("Debug")]
-    public LayerMask layerEnemey;
-    public float damage;
+    public LayerMask LayerEnemey;
+    public float Damage;
 
     private Pool_Obj pool;
     private float flipX;
@@ -34,8 +34,8 @@ public class BaseSword : MonoBehaviour
     {
         StartCoroutine(AttackRoutine(attackPoint, entity));
 
-        layerEnemey = entity.LayerEnemy;
-        damage = entity.GetDamage();
+        LayerEnemey = entity.LayerEnemy;
+        Damage = entity.GetDamage();
     }
 
     private IEnumerator AttackRoutine(Transform attackPoint, Entity entity)
@@ -88,18 +88,15 @@ public class BaseSword : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if ((layerEnemey.value & (1 << other.gameObject.layer)) != 0)
+        LifeSystem e = other.GetComponentInChildren<LifeSystem>();
+        if (!e) return;
+
+        e.Damage(Damage, LayerEnemey);
+
+        if (Time.time >= nextOnHitAudioTime)
         {
-            Entity e = other.GetComponentInChildren<Entity>();
-            if (!e) return;
-
-            e.Damage(damage);
-
-            if (Time.time >= nextOnHitAudioTime)
-            {
-                nextOnHitAudioTime = Time.time + onHitMinInterval;
-                TryPlayAudio(onHitAudioEventData, other.transform.position);
-            }
+            nextOnHitAudioTime = Time.time + onHitMinInterval;
+            TryPlayAudio(onHitAudioEventData, other.transform.position);
         }
     }
 

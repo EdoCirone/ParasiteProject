@@ -48,8 +48,9 @@ public class Player_Controller : Entity
 
     private void TakeControllBody()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, possessRadius, layerEnemy);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, possessRadius,layerEnemy);
 
+        Debug.Log($"Player_Controller: Found {hits.Length} colliders within possess radius.");
         if (hits.Length == 0) return;
 
         float minDist = Mathf.Infinity;
@@ -58,6 +59,8 @@ public class Player_Controller : Entity
         foreach (Collider2D hit in hits)
         {
             EnemyController ec = hit.GetComponent<EnemyController>();
+
+            Debug.Log($"Player_Controller: Checking collider {hit.name} for EnemyController component. is deaht {ec.IsDeath}");
             if (!ec || !ec.IsDeath) continue;
 
             float dist = (hit.transform.position - transform.position).sqrMagnitude;
@@ -103,7 +106,7 @@ public class Player_Controller : Entity
             PlayDeathAudio();
             _playerDeath?.Invoke();
 
-            //if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
 
