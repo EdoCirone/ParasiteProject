@@ -16,6 +16,7 @@ public class Entity : MonoBehaviour
 
     protected Rigidbody2D rb;
     protected LifeSystem lifeSystem;
+    protected Animator animator;
     protected float maxHp;
     [SerializeField]protected float hp;
     protected bool isDeath;
@@ -71,10 +72,23 @@ public class Entity : MonoBehaviour
         float speed = isPlayer ? entity.Speed * entity.BoostPlayerSpeed : entity.Speed / 2;
         rb.linearVelocity = direction.normalized * speed;
 
-        if (direction.sqrMagnitude > 0.01f)
+        if (animator)
         {
-            facingDir = direction.normalized;
-            RotateVisual(facingDir);
+            float magnitude = direction.magnitude;
+            bool isMoving = magnitude > 0.01f;
+
+            animator.SetBool("isMoving", isMoving);
+
+            animator.SetFloat("x", x);
+            animator.SetFloat("y", y);
+        }
+        else
+        {
+            if (direction.sqrMagnitude > 0.01f)
+            {
+                facingDir = direction.normalized;
+                RotateVisual(facingDir);
+            }
         }
     }
 
@@ -104,6 +118,8 @@ public class Entity : MonoBehaviour
 
         maxHp = entity.MaxHp;
         hp = maxHp;
+
+        animator = GetComponentInChildren<Animator>();
 
         StartCoroutine(AttackRoutine());
     }

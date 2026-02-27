@@ -7,6 +7,7 @@ public class EnemyController : Entity
     [SerializeField] protected float timerForDeath = 3f;
 
     protected Pool_Obj pool;
+    protected PointManager pointManager;
     protected Transform player;
 
     public override void Awake()
@@ -27,17 +28,21 @@ public class EnemyController : Entity
 
     public override void Damage(float damage)
     {
+        if(isDeath) return; 
+
         base.Damage(damage);
 
-        if (hp < 0)
-        {
-            hp = 0;
-            isDeath = true;
-            PlayDeathAudio();
-            rb.linearVelocity = Vector3.zero;
+        if (hp > 0) return;
 
-            StartCoroutine(DyingRoutine());
-        }
+        hp = 0;
+        isDeath = true;
+        PlayDeathAudio();
+        rb.linearVelocity = Vector3.zero;
+
+        if (!pointManager) pointManager = PointManager.Instance;
+        if (pointManager) pointManager.AddPoints(entity.Score);
+
+        StartCoroutine(DyingRoutine());
     }
 
     private IEnumerator DyingRoutine()
