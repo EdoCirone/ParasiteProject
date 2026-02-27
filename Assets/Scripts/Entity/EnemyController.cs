@@ -45,6 +45,7 @@ public class EnemyController : Entity
         yield return new WaitForSeconds(timerForDeath);
         if(!pool) pool = GetComponentInChildren<Pool_Obj>();
 
-        pool.ReturnToPool();
+        if (pool) pool.ReturnToPool();
+        else Destroy(gameObject);
     }
 }

@@ -7,6 +7,7 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Entity_SO entity;
     [SerializeField] protected Transform visual;
     [SerializeField] protected bool isPlayer;
+    [SerializeField] protected LayerMask myLayer;
     [SerializeField] protected LayerMask layerEnemy;
     [Header("Audio")]
     [SerializeField] protected AudioEventData damageAudioEventData;
@@ -14,6 +15,7 @@ public class Entity : MonoBehaviour
     [SerializeField, Min(0f)] private float damageAudioMinInterval = 0.05f;
 
     protected Rigidbody2D rb;
+    protected LifeSystem lifeSystem;
     protected float maxHp;
     [SerializeField]protected float hp;
     protected bool isDeath;
@@ -85,13 +87,20 @@ public class Entity : MonoBehaviour
         visual.localScale = scale;
     }
 
-
-
     public virtual void SetEntity()
     {
         StopAllCoroutines();
-        foreach(Transform t in visual) Destroy(t.gameObject);
+        StartCoroutine(SetUpRoutine());
+    }
+
+    private IEnumerator SetUpRoutine()
+    {
+        foreach (Transform t in visual) Destroy(t.gameObject);
         Instantiate(entity.Visual, visual);
+
+        for (int i = 0; i < 5; i++) yield return null;
+        lifeSystem = GetComponentInChildren<LifeSystem>();
+        lifeSystem.SetUp(this, myLayer);
 
         maxHp = entity.MaxHp;
         hp = maxHp;
