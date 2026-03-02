@@ -222,11 +222,89 @@ PrefabInstance:
       propertyPath: m_Name
       value: VisualArcher
       objectReference: {fileID: 0}
+    - target: {fileID: 4682735336258196128, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_Size.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682735336258196128, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_Size.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682735336258196128, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -855298285791758126, guid: 191728127f8024b4692fcf766a3eb1e2, type: 3}
+    - target: {fileID: 4682735336258196128, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654814788850893935, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3084236829594733277, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+    - {fileID: 2685583398117090652, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+    - {fileID: 4695102557831581157, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+    - {fileID: 8956698941131426675, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3324262959496153416, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2164788503825612395}
   m_SourcePrefab: {fileID: 100100000, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+--- !u!1 &6184782498562092914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3324262959496153416, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
+  m_PrefabInstance: {fileID: 8932579134888568378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2164788503825612395
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184782498562092914}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 039e2d2b246ca18408f16fec062e146f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &9068336178057748919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445811078114166669, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
