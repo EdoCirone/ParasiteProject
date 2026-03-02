@@ -4822,7 +4822,7 @@ GameObject:
   - component: {fileID: 6571291381755764389}
   - component: {fileID: 3635769200141061948}
   - component: {fileID: 6847389543596256177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12652,7 +12652,7 @@ Tilemap:
       - {fileID: 479663059, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -198356948, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 983786131, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 6, y: -1, z: 0}
@@ -13300,7 +13300,7 @@ GameObject:
   - component: {fileID: 4455076811350245898}
   - component: {fileID: 2312774945902637247}
   - component: {fileID: 7415063622684822288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Deco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14626,7 +14626,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 46
-      m_TileSpriteIndex: 47
+      m_TileSpriteIndex: 53
       m_TileMatrixIndex: 6
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -15316,7 +15316,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 51
-      m_TileSpriteIndex: 48
+      m_TileSpriteIndex: 52
       m_TileMatrixIndex: 6
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -16259,20 +16259,20 @@ Tilemap:
     m_Data: {fileID: -1375066791, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -1993209643, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1302093535, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: -284846461, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1242208289, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1999465228, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1302093535, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1993209643, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 2092889232, guid: 82b050a771dbad145855fbf05bc569f9, type: 3}
   - m_RefCount: 1

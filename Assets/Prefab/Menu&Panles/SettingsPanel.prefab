@@ -172,6 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2643680138528141842}
   - component: {fileID: 1949943741712264427}
+  - component: {fileID: 4876322600797877182}
   m_Layer: 5
   m_Name: 'SFXSlider '
   m_TagString: Untagged
@@ -252,6 +253,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4876322600797877182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363468041264283087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1723244781f4c41980f2e22a0ceebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioSliderLink
+  type: 2
 --- !u!1 &679224179963066709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3254649229124443746}
   - component: {fileID: 5538101995911783850}
+  - component: {fileID: 4587069611046208627}
   m_Layer: 5
   m_Name: 'MusicSlider '
   m_TagString: Untagged
@@ -2711,6 +2726,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4587069611046208627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917610662602596700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1723244781f4c41980f2e22a0ceebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioSliderLink
+  type: 1
 --- !u!1 &6286756058327932501
 GameObject:
   m_ObjectHideFlags: 0
