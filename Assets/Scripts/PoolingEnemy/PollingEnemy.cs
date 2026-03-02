@@ -66,7 +66,7 @@ public class PollingEnemy : MonoBehaviour
     {
         if (!poolDictionary.ContainsKey(poolObj_SO.ID))
         {
-            Debug.LogWarning($"[PollingEnemy] Pool '{poolObj_SO.ID}' non esisteva. Creazione al volo.");
+            //Debug.LogWarning($"[PollingEnemy] Pool '{poolObj_SO.ID}' non esisteva. Creazione al volo.");
             CreatePool(poolObj_SO);
         }
 

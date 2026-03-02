@@ -15,20 +15,27 @@ public class BaseSword : MonoBehaviour
 {
     [SerializeField] private List<AttackSequenceMelee> attackSequenceMelees = new List<AttackSequenceMelee>();
 
+    [Header("Audio")]
+    [SerializeField] private AudioEventData onAttackAudioEventData;
+    [SerializeField] private AudioEventData onHitAudioEventData;
+    [SerializeField] private AudioEventData onReloadAudioEventData;
+    [SerializeField, Min(0f)] private float onHitMinInterval = 0.05f;
+
     [Header("Debug")]
-    public LayerMask layerEnemey;
-    public float damage;
+    public LayerMask LayerEnemey;
+    public float Damage;
 
     private Pool_Obj pool;
     private float flipX;
     private float flipY;
+    private float nextOnHitAudioTime;
 
     public void Attack(Transform attackPoint, Entity entity)
     {
         StartCoroutine(AttackRoutine(attackPoint, entity));
 
-        layerEnemey = entity.LayerEnemy;
-        damage = entity.GetDamage();
+        LayerEnemey = entity.LayerEnemy;
+        Damage = entity.GetDamage();
     }
 
     private IEnumerator AttackRoutine(Transform attackPoint, Entity entity)
@@ -37,6 +44,7 @@ public class BaseSword : MonoBehaviour
         transform.localPosition = Vector3.zero;
   
         Quaternion startRot = transform.localRotation;
+        TryPlayAudio(onAttackAudioEventData, attackPoint.position);
         flipX = Mathf.Sign(entity.FacingDir.x == 0 ? 1 : entity.FacingDir.x);
         flipY = Mathf.Sign(entity.FacingDir.y == 0 ? 1 : entity.FacingDir.y);
 
@@ -50,6 +58,8 @@ public class BaseSword : MonoBehaviour
             yield return new WaitForSeconds(currentAttack.AttackDuration);
         }
         entity.StartAttack();
+
+        TryPlayAudio(onReloadAudioEventData, attackPoint.position);
 
         if(!pool) pool = GetComponentInChildren<Pool_Obj>();
 
@@ -78,10 +88,25 @@ public class BaseSword : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if ((layerEnemey.value & (1 << other.gameObject.layer)) != 0)
+        LifeSystem e = other.GetComponentInChildren<LifeSystem>();
+        if (!e) return;
+
+        e.Damage(Damage, LayerEnemey);
+
+        if (Time.time >= nextOnHitAudioTime)
         {
-            Entity e = other.GetComponentInChildren<Entity>();
-            if (e) e.Damage(damage);
+            nextOnHitAudioTime = Time.time + onHitMinInterval;
+            TryPlayAudio(onHitAudioEventData, other.transform.position);
         }
+    }
+
+    private void TryPlayAudio(AudioEventData eventData, Vector3 position)
+    {
+        if (!eventData) return;
+
+        AudioManager audioManager = AudioManager.Instance;
+        if (!audioManager) return;
+
+        audioManager.PlaySound(eventData, position);
     }
 }

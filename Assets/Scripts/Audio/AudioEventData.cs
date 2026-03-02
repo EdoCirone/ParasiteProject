@@ -12,7 +12,8 @@ public enum GameAudioEventType
 public enum AudioRoute
 {
     SFX_Weapons,
-    SFX_Impacts
+    SFX_Impacts,
+    UI_Feedback
 }
 
 [CreateAssetMenu(fileName = "AudioEventData", menuName = "Audio/Audio Event Data")]

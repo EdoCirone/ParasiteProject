@@ -20,6 +20,7 @@ public sealed class AudioManager : MonoBehaviour
     [Header("Mixer Routing")]
     [SerializeField] private AudioMixerGroup sfxWeaponsGroup;
     [SerializeField] private AudioMixerGroup sfxImpactsGroup;
+    [SerializeField] private AudioMixerGroup uiFeedbackGroup;
 
     [Header("Pitch Randomization")]
     [SerializeField] private float randomPitchMin = 0.95f;
@@ -128,6 +129,8 @@ public sealed class AudioManager : MonoBehaviour
         {
             case AudioRoute.SFX_Weapons:
                 return sfxWeaponsGroup;
+            case AudioRoute.UI_Feedback:
+                return uiFeedbackGroup;
             case AudioRoute.SFX_Impacts:
             default:
                 return sfxImpactsGroup;
