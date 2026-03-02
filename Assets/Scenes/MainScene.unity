@@ -226,10 +226,10 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 8192
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1178,6 +1178,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 3417028084059524681, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00012207031
+      objectReference: {fileID: 0}
     - target: {fileID: 3566508120949977567, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1261,6 +1265,10 @@ PrefabInstance:
     - target: {fileID: 5564846487601471772, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883152184969408166, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00024414062
       objectReference: {fileID: 0}
     - target: {fileID: 6027569766486606015, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1369,6 +1377,14 @@ PrefabInstance:
     - target: {fileID: 8695302504935869013, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884628608306647092, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.43992615
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884628608306647092, guid: b4846e200b79a8d4abc990f8119ef426, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35.266006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
