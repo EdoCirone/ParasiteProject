@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class Player_Controller : Entity
 {
     [SerializeField] private float possessRadius = 3f;
+    [SerializeField] private float timerForPossess = 5f;
     [SerializeField] private float percentHpForLoss = 70f;
     [SerializeField] private float velocityLossHp = 4f;
     [SerializeField] private float hpLoseOverTime = 10f;
@@ -18,6 +19,8 @@ public class Player_Controller : Entity
     private Coroutine _hpRoutine;
     private UnityEvent _playerDeath = new UnityEvent();
     private InGameMenuManager _inGameMenuManager;
+
+    public float OffSetTime { get; private set; }
 
 
     public override void Awake()
@@ -39,7 +42,9 @@ public class Player_Controller : Entity
         X = Input.GetAxis("Horizontal");
         Y = Input.GetAxis("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if(OffSetTime > 0) OffSetTime -= Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Space) || OffSetTime <= 0)
         {
             TryPlayAudio(onDashAudioEventData, transform.position);
             TakeControllBody();
@@ -75,6 +80,7 @@ public class Player_Controller : Entity
         if (!closest) return;
         TryPlayAudio(parasitePossessionAudioEventData, closest.transform.position);
         entity = closest.Entity_SO;
+        OffSetTime = timerForPossess;
         SetEntity();
     }
 
