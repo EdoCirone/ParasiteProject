@@ -47,7 +47,7 @@ public class HealthBarUI : MonoBehaviour
         }
      
 
-        if (_player.MaxHp <= 0)
+        if (_player.MaxHp < 0)
         {
             Debug.LogWarning($"{name}Player MaxHp Invalid");
             _healthBarFill.value = 0;

@@ -106,7 +106,7 @@ public class Player_Controller : Entity
             PlayDeathAudio();
             _playerDeath?.Invoke();
 
-            if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
 

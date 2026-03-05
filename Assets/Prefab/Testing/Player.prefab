@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9f703ef3e8bb34cb28895510980e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_Controller
-  entity: {fileID: 11400000, guid: 51aa430991505c44a9e94a6ff7a5631f, type: 2}
+  entity: {fileID: 11400000, guid: 842ed07d978a4a343983266092dcbda3, type: 2}
   visual: {fileID: 7951645132015304482}
   isPlayer: 1
   myLayer:
@@ -61,10 +61,11 @@ MonoBehaviour:
   damageAudioEventData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
   deathAudioEventData: {fileID: 11400000, guid: 6044f77e75092904ca294d4ab851a298, type: 2}
   damageAudioMinInterval: 0.05
-  hp: 0
+  hp: 160
   X: 0
   Y: 0
   possessRadius: 3
+  timerForPossess: 5
   percentHpForLoss: 70
   velocityLossHp: 4
   hpLoseOverTime: 10
