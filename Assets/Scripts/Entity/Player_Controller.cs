@@ -44,7 +44,7 @@ public class Player_Controller : Entity
 
         if(OffSetTime > 0) OffSetTime -= Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.Space) || OffSetTime <= 0)
+        if (Input.GetKeyDown(KeyCode.Space) && OffSetTime <= 0)
         {
             TryPlayAudio(onDashAudioEventData, transform.position);
             TakeControllBody();
@@ -112,7 +112,7 @@ public class Player_Controller : Entity
             PlayDeathAudio();
             _playerDeath?.Invoke();
 
-            if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //if (isPlayer) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
 

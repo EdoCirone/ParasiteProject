@@ -13,17 +13,17 @@ EditorBuildSettings:
     guid: 6321fc155b43e3648a2beb1703daf397
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
-    guid: 94bdf9e0cd9be1c4184029ef83ef062e
-  - enabled: 1
+    guid: e80595a0d5b267045bb224f66dad31ad
+  - enabled: 0
     path: Assets/Scenes/Personal/EdoScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Personal/MikeScene.unity
     guid: a4e7ac1765d71ca4f9b9194cd9d250ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Personal/RenatoScene.unity
     guid: 98d19e10b14e55147bb840951df00825
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Personal/SalvoScene.unity
     guid: 6ccac6d08902e7649a02d22b4cecc7d0
   m_configObjects:

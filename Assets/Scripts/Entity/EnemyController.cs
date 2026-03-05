@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class EnemyController : Entity
 {
     [SerializeField] protected float timerForDeath = 3f;
+    [SerializeField] protected float distanceToPlayerForChase = 30f;
 
     protected Pool_Obj pool;
     protected PointManager pointManager;
@@ -24,6 +25,9 @@ public class EnemyController : Entity
         Vector2 direction = player.position - transform.position;
         X = direction.x;
         Y = direction.y;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if (distanceToPlayerForChase < distanceToPlayer) Death();
     }
 
     public override void Damage(float damage)
@@ -48,7 +52,12 @@ public class EnemyController : Entity
     private IEnumerator DyingRoutine()
     {
         yield return new WaitForSeconds(timerForDeath);
-        if(!pool) pool = GetComponentInChildren<Pool_Obj>();
+        Death();
+    }
+
+    private void Death()
+    {
+        if (!pool) pool = GetComponentInChildren<Pool_Obj>();
 
         if (pool) pool.ReturnToPool();
         else Destroy(gameObject);

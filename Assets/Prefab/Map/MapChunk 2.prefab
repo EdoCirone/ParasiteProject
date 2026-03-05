@@ -5766,7 +5766,7 @@ Tilemap:
       - {fileID: -4712007337684372800, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1226991102608204867, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1706704212053624585, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -7, y: 9, z: 0}
@@ -5786,7 +5786,7 @@ Tilemap:
       - {fileID: -4712007337684372800, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1226991102608204867, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1706704212053624585, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 2, y: 9, z: 0}
@@ -6178,7 +6178,10 @@ GameObject:
   - component: {fileID: 8075173264289862715}
   - component: {fileID: 240873602449381583}
   - component: {fileID: 1413859377847028888}
-  m_Layer: 0
+  - component: {fileID: 5320922136340558722}
+  - component: {fileID: 3553015892659633015}
+  - component: {fileID: 8560831767012409116}
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10696,6 +10699,226 @@ TilemapRenderer:
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
+--- !u!50 &5320922136340558722
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863090635726930893}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!66 &3553015892659633015
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863090635726930893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 8560831767012409116}
+    m_ColliderPaths:
+    - - X: 20000000
+        Y: -115000000
+      - X: 110000000
+        Y: -115000000
+      - X: 110000000
+        Y: -65000000
+      - X: 130000000
+        Y: -65000000
+      - X: 130000000
+        Y: -35000000
+      - X: 110000000
+        Y: -35000000
+      - X: 110000000
+        Y: -15000000
+      - X: 30000000
+        Y: -15000000
+      - X: 30000000
+        Y: 35000000
+      - X: 120000000
+        Y: 35000000
+      - X: 120000000
+        Y: 45000000
+      - X: 130000000
+        Y: 45000000
+      - X: 130000000
+        Y: 65000000
+      - X: 120000000
+        Y: 65000000
+      - X: 120000000
+        Y: 85000000
+      - X: 20000000
+        Y: 85000000
+      - X: 20000000
+        Y: 125000000
+      - X: -20000000
+        Y: 125000000
+      - X: -20000000
+        Y: 85000000
+      - X: -120000000
+        Y: 85000000
+      - X: -120000000
+        Y: 75000000
+      - X: -130000000
+        Y: 75000000
+      - X: -130000000
+        Y: 45000000
+      - X: -120000000
+        Y: 45000000
+      - X: -120000000
+        Y: 35000000
+      - X: -30000000
+        Y: 35000000
+      - X: -30000000
+        Y: -15000000
+      - X: -110000000
+        Y: -15000000
+      - X: -110000000
+        Y: -45000000
+      - X: -130000000
+        Y: -45000000
+      - X: -130000000
+        Y: -65000000
+      - X: -110000000
+        Y: -65000000
+      - X: -110000000
+        Y: -115000000
+      - X: -20000000
+        Y: -115000000
+      - X: -20000000
+        Y: -135000000
+      - X: 20000000
+        Y: -135000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 1.9999708, y: -13.5}
+      - {x: 2.0000293, y: -11.5}
+      - {x: 11, y: -11.49997}
+      - {x: 11.00003, y: -6.5}
+      - {x: 13, y: -6.499971}
+      - {x: 12.99997, y: -3.5}
+      - {x: 11, y: -3.4999704}
+      - {x: 10.99997, y: -1.5}
+      - {x: 3, y: -1.4999707}
+      - {x: 3.0000293, y: 3.5}
+      - {x: 12, y: 3.5000293}
+      - {x: 12.00003, y: 4.5}
+      - {x: 13, y: 4.500029}
+      - {x: 12.99997, y: 6.5}
+      - {x: 12, y: 6.5000296}
+      - {x: 11.99997, y: 8.5}
+      - {x: 2, y: 8.50003}
+      - {x: 1.9999708, y: 12.5}
+      - {x: -2, y: 12.49997}
+      - {x: -2.0000293, y: 8.5}
+      - {x: -12, y: 8.49997}
+      - {x: -12.00003, y: 7.5}
+      - {x: -13, y: 7.4999704}
+      - {x: -12.99997, y: 4.5}
+      - {x: -12, y: 4.4999704}
+      - {x: -11.99997, y: 3.5}
+      - {x: -3, y: 3.4999704}
+      - {x: -3.0000293, y: -1.5}
+      - {x: -11, y: -1.5000293}
+      - {x: -11.00003, y: -4.5}
+      - {x: -13, y: -4.500029}
+      - {x: -12.99997, y: -6.5}
+      - {x: -11, y: -6.5000296}
+      - {x: -10.99997, y: -11.5}
+      - {x: -2, y: -11.50003}
+      - {x: -1.9999708, y: -13.5}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 5863090635726930893}
+--- !u!19719996 &8560831767012409116
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863090635726930893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 1
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &6248132687058492469
 GameObject:
   m_ObjectHideFlags: 0
@@ -10798,7 +11021,7 @@ GameObject:
   - component: {fileID: 5779454471671073576}
   - component: {fileID: 4081763184870951234}
   - component: {fileID: 7401852307693865089}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor Deco
   m_TagString: Untagged
   m_Icon: {fileID: 0}

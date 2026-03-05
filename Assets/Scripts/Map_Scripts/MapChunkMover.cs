@@ -29,6 +29,26 @@ public class MapChunkMover : MonoBehaviour
                 return;
             }
         }
+
+        //if(_player == null)
+        //{
+        //    _player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        //    if (_player == null)
+        //    {
+        //        Debug.LogError("Player not assigned and no GameObject with 'Player' tag found!");
+        //        return;
+        //    }
+        //}
+
+        //if(mapParent == null)
+        //{
+        //    mapParent = GameObject.FindGameObjectWithTag("MapParent")?.transform;
+        //    if(mapParent == null)
+        //    {
+        //        Debug.LogError("Map Parent not assigned and no GameObject with 'MapParent' tag found!");
+        //        return;
+        //    }
+        //}
     }
 
     void Update()
