@@ -4548,7 +4548,7 @@ Tilemap:
       - {fileID: 912217385, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 1948583323, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -433141279, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: -4, z: 0}
@@ -4598,7 +4598,7 @@ Tilemap:
       - {fileID: 1186019614, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: 301897068, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
       - {fileID: -1096611422, guid: aecb15943c7679e49bb6a2c75c85d1ab, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -6, y: 4, z: 0}
@@ -11480,7 +11480,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 0.54901963}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.4509804}
   m_Origin: {x: -14, y: -13, z: 0}
   m_Size: {x: 28, y: 26, z: 1}
   m_TileAnchor: {x: 0.5, y: 0, z: 0}
@@ -11549,7 +11549,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1888919683
   m_SortingLayer: -1
-  m_SortingOrder: -5
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.5, y: 1.5, z: 0}

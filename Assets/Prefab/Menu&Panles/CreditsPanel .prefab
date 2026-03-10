@@ -66,14 +66,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A Middle Finger Entertainment Production\n\nEdoardo Cirone\nProject Lead,
-    Game Design, UI/UX\nBoot Flow (Boot Scene), Level Design, Lighting\n\nMike [COGNOME]\nGameplay
-    Programming, Systems (ScriptableObjects)\n\nSalvatore Guglielmini\nAudio, Version
-    Control (GitHub)\n\nRenato Rumieri\nAnimation\n\nExternal Assets\n\n\nVFX\nEffect
-    and FX Pixel Part 14 \u2014 BDragon1727 (itch.io)\nFree Effect and Bullet 16x16
-    \u2014 BDragon1727 (itch.io)\n500 Bullet 24x24 \u2014 BDragon1727 (itch.io)\n\nLevel
-    Design / Tileset\nDamp Dungeons by Arex_V (itch.io)\n\nIcons\nGame-icons.net\n\nUI\nUI
+    Game Design, UI/UX\nBoot Flow (Boot Scene), Level Design, Lighting\n\nMichael
+    Caldarone Riccobene\nGameplay Programming, Systems (ScriptableObjects)\n\nSalvatore
+    Guglielmini\nAudio, Version Control (GitHub)\n\nRenato Rumieri\nAnimation\n\nExternal
+    Assets\n\n\nVFX\nEffect and FX Pixel Part 14 \u2014 BDragon1727 (itch.io)\nFree
+    Effect and Bullet 16x16 \u2014 BDragon1727 (itch.io)\n500 Bullet 24x24 \u2014
+    BDragon1727 (itch.io)\n\nLevel Design / Tileset\nDamp Dungeons by Arex_V (itch.io)\n\nIcons\nGame-icons.net\n\nUI\nUI
     User Interface MEGA PACK \u2014 ToffeeCraft (itch.io)\n\nMain Menu Image\nImage
-    by Freepik\nhttps://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm"
+    by Freepik\nhttps://www.freepik.com/free-vector/hand-drawn-virus-collection_7363877.htm\n\nFonts\nMinecraft
+    \u2014 by Craftron Gaming. \nAlagard \u2014 by Hewett Tsoi. \nKiwi Soda \u2014
+    by jeti. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9ec67d9693c3ce948bc2421eade5e34c, type: 2}
   m_sharedMaterial: {fileID: -7382307698358052067, guid: 9ec67d9693c3ce948bc2421eade5e34c, type: 2}
@@ -625,7 +627,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.1
+  m_fontSize: 20.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -977,7 +979,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6488131350170526713}
   m_Direction: 2
   m_Value: 1.0000005
-  m_Size: 0.27064225
+  m_Size: 0.26983947
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

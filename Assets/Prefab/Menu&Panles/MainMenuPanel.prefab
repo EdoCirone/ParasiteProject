@@ -397,7 +397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Scoreboard '
+  m_text: How To Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9ec67d9693c3ce948bc2421eade5e34c, type: 2}
   m_sharedMaterial: {fileID: -7382307698358052067, guid: 9ec67d9693c3ce948bc2421eade5e34c, type: 2}
@@ -1038,7 +1038,7 @@ GameObject:
   - component: {fileID: 3030720598662950582}
   - component: {fileID: 278491272805091412}
   m_Layer: 5
-  m_Name: ScoreBoardButton
+  m_Name: HowToButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
