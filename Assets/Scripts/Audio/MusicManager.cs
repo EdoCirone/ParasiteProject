@@ -22,7 +22,6 @@ public sealed class MusicManager : MonoBehaviour
 
     [Header("Crossfade")]
     [SerializeField, Min(0.1f)] private float crossfadeDuration = 2.5f;
-    [SerializeField, Range(0f, 1f)] private float musicVolume = 1f;
 
     private AudioSource[] musicSources;
     private int activeSourceIndex;
@@ -117,8 +116,8 @@ public sealed class MusicManager : MonoBehaviour
     {
         if (duration <= 0f)
         {
-            if (from) from.Stop();
-            if (to) to.volume = musicVolume;
+            if (from != null) from.Stop();
+            if (to != null) to.volume = 1;
             yield break;
         }
 
@@ -130,14 +129,14 @@ public sealed class MusicManager : MonoBehaviour
             elapsed += Time.unscaledDeltaTime;
             float t = Mathf.Clamp01(elapsed / duration);
 
-            if (from)
+            if (from != null)
             {
                 from.volume = Mathf.Lerp(fromStart, 0f, t);
             }
 
-            if (to)
+            if (to != null)
             {
-                to.volume = Mathf.Lerp(0f, musicVolume, t);
+                to.volume = Mathf.Lerp(0f, 1f, t);
             }
 
             yield return null;
@@ -151,7 +150,7 @@ public sealed class MusicManager : MonoBehaviour
 
         if (to)
         {
-            to.volume = musicVolume;
+            to.volume = 1f;
         }
 
         crossfadeRoutine = null;

@@ -4,8 +4,14 @@
 <<<<<<< Updated upstream
 =======
 - Active game object:
+<<<<<<< Updated upstream
   - Name: CameraBrain
   - Tag: MainCamera
   - Layer: Default
+>>>>>>> Stashed changes
+=======
+  - Name: Player
+  - Tag: Player
+  - Layer: Enemy
 >>>>>>> Stashed changes
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
