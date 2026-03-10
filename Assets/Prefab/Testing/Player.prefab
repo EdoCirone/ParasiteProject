@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 8916610912424036748}
   - component: {fileID: 3329451342888416151}
   - component: {fileID: 5755735933876513866}
-  - component: {fileID: 5400902715484692849}
   - component: {fileID: 2857667472964657277}
   - component: {fileID: 2680924425825925466}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -49,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9f703ef3e8bb34cb28895510980e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_Controller
-  entity: {fileID: 11400000, guid: 842ed07d978a4a343983266092dcbda3, type: 2}
+  entity: {fileID: 11400000, guid: 51aa430991505c44a9e94a6ff7a5631f, type: 2}
   visual: {fileID: 7951645132015304482}
   isPlayer: 1
   myLayer:
@@ -61,11 +60,11 @@ MonoBehaviour:
   damageAudioEventData: {fileID: 11400000, guid: 33555db954dafd94b9534550984b1a3b, type: 2}
   deathAudioEventData: {fileID: 11400000, guid: 6044f77e75092904ca294d4ab851a298, type: 2}
   damageAudioMinInterval: 0.05
-  hp: 160
+  hp: 100
   X: 0
   Y: 0
   possessRadius: 3
-  timerForPossess: 5
+  timerForPossess: 1
   percentHpForLoss: 70
   velocityLossHp: 4
   hpLoseOverTime: 10
@@ -83,19 +82,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c0509e0c504f648bb1fed6a4eb2939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PointManager
---- !u!114 &5400902715484692849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8864439467910252754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bad53d1a21da864993e5837b5d7289b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PollingEnemy
-  poolObjectsList: []
 --- !u!50 &2857667472964657277
 Rigidbody2D:
   serializedVersion: 5
@@ -130,7 +116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8864439467910252754}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 112278bd3cfe2334aaa75098867798f4, type: 3}
   m_Name: 
@@ -142,7 +128,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8e4b68ce2e7961b46b099f520e233e62, type: 2}
   - {fileID: 11400000, guid: 3f9c2ce64dcad704d9f81562d27bb03c, type: 2}
   - {fileID: 11400000, guid: fc537000d4618274bafdc8436a0133e4, type: 2}
-  timer: 20
+  timer: 15
+  spawnRadius: 10
+  minDistanceFromPlayer: 5
+  maxSpawnAttempts: 10
+  spawnLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  minEnemySpawn: 35
+  maxEnemySpawn: 50
 --- !u!1001 &1415062645832670447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,7 +186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7573790468067597274, guid: 5460a33de6494ab468fdc606a3fd722c, type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9077749300535731149, guid: 5460a33de6494ab468fdc606a3fd722c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -300,11 +297,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2685583398117090652, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3084236829594733277, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3324262959496153416, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
       propertyPath: m_Name
@@ -312,15 +309,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3324262959496153416, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4695102557831581157, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8956698941131426675, guid: 6e722c5e89edc484ebfe982e9f424224, type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
